@@ -1,0 +1,986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79058173-4E7C-47BD-B696-3D81F2233E81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BCE_Cerro.NewLogin</StartupObject>
+    <RootNamespace>BCE_Cerro</RootNamespace>
+    <AssemblyName>BCE_Cerro</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BCE_Cerro.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BCE_Cerro.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CerroLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EASendMail, Version=7.5.0.3, Culture=neutral, PublicKeyToken=88adb80ecd66540b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\EASendMail\Lib\net40\EASendMail.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="syncfusion.grid.base">
+      <HintPath>C:\Users\jrmfaraon\Downloads\syncfusion\syncfusion.grid.base\syncfusion.grid.base.dll</HintPath>
+    </Reference>
+    <Reference Include="syncfusion.grid.windows">
+      <HintPath>C:\Users\jrmfaraon\Downloads\syncfusion\syncfusion.grid.windows\syncfusion.grid.windows.dll</HintPath>
+    </Reference>
+    <Reference Include="syncfusion.shared.base">
+      <HintPath>C:\Users\jrmfaraon\Downloads\syncfusion\syncfusion.shared.base\syncfusion.shared.base.dll</HintPath>
+    </Reference>
+    <Reference Include="syncfusion.shared.windows">
+      <HintPath>C:\Users\jrmfaraon\Downloads\syncfusion\syncfusion.shared.windows\syncfusion.shared.windows.dll</HintPath>
+    </Reference>
+    <Reference Include="syncfusion.tools.base">
+      <HintPath>C:\Users\jrmfaraon\Downloads\syncfusion\syncfusion.tools.base\syncfusion.tools.base.dll</HintPath>
+    </Reference>
+    <Reference Include="syncfusion.tools.windows">
+      <HintPath>C:\Users\jrmfaraon\Downloads\syncfusion\syncfusion.tools.windows\syncfusion.tools.windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BCE_Account\AcctApp.Designer.vb">
+      <DependentUpon>AcctApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\AcctApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCEModule.vb" />
+    <Compile Include="BCEParent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCEParent.Designer.vb">
+      <DependentUpon>BCEParent.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Account\ChangePass.Designer.vb">
+      <DependentUpon>ChangePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\ChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Account\ForgotPwd.Designer.vb">
+      <DependentUpon>ForgotPwd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\ForgotPwd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Account\NewLogin.Designer.vb">
+      <DependentUpon>NewLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\NewLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Account\SwitchStation.Designer.vb">
+      <DependentUpon>SwitchStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\SwitchStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Report\CSReport.Designer.vb">
+      <DependentUpon>CSReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Report\CSReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Report\KPI.Designer.vb">
+      <DependentUpon>KPI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Report\KPI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\Status.Designer.vb">
+      <DependentUpon>Status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\Status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\SysLoading.Designer.vb">
+      <DependentUpon>SysLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\SysLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CS_DeliveryList.Designer.vb">
+      <DependentUpon>CS_DeliveryList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CS_DeliveryList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CS_PickUpList.Designer.vb">
+      <DependentUpon>CS_PickUpList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CS_PickUpList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CSDashboard.Designer.vb">
+      <DependentUpon>CSDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CSDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\Mod_PickupAdd.Designer.vb">
+      <DependentUpon>Mod_PickupAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\Mod_PickupAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\PickUpSched_Mod.Designer.vb">
+      <DependentUpon>PickUpSched_Mod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\PickUpSched_Mod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\POD.Designer.vb">
+      <DependentUpon>POD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\POD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\Receive.Designer.vb">
+      <DependentUpon>Receive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\Receive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CS_Report.Designer.vb">
+      <DependentUpon>CS_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\CS_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Unbilled.Designer.vb">
+      <DependentUpon>Unbilled.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Unbilled.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingCanList.Designer.vb">
+      <DependentUpon>BillingCanList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingCanList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\CostingList.Designer.vb">
+      <DependentUpon>CostingList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\CostingList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Billing.Designer.vb">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Billing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingApp.Designer.vb">
+      <DependentUpon>BillingApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\BilledList.Designer.vb">
+      <DependentUpon>BilledList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\BilledList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\ForCosting.Designer.vb">
+      <DependentUpon>ForCosting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\ForCosting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Reason.Designer.vb">
+      <DependentUpon>Reason.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Reason.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingRevList.Designer.vb">
+      <DependentUpon>BillingRevList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingRevList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingTrans.Designer.vb">
+      <DependentUpon>BillingTrans.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingTrans.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingView.Designer.vb">
+      <DependentUpon>BillingView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\BillingView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Collection.Designer.vb">
+      <DependentUpon>Collection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Collection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\CollectionView.Designer.vb">
+      <DependentUpon>CollectionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\CollectionView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\CVList.Designer.vb">
+      <DependentUpon>CVList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\CVList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\CVApproval.Designer.vb">
+      <DependentUpon>CVApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\CVApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Disbursement.Designer.vb">
+      <DependentUpon>Disbursement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Disbursement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Costing.Designer.vb">
+      <DependentUpon>Costing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Costing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\CostingView.Designer.vb">
+      <DependentUpon>CostingView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\CostingView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Finance\Uncost.Designer.vb">
+      <DependentUpon>Uncost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Finance\Uncost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\FileUpload.Designer.vb">
+      <DependentUpon>FileUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\FileUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\DeliveryDispatch.Designer.vb">
+      <DependentUpon>DeliveryDispatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\DeliveryDispatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\HWB.Designer.vb">
+      <DependentUpon>HWB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\HWB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Report\OpsReport.Designer.vb">
+      <DependentUpon>OpsReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Report\OpsReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Module1.vb" />
+    <Compile Include="BCE_Operation\Transaction\TM.Designer.vb">
+      <DependentUpon>TM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TrackingApp.Designer.vb">
+      <DependentUpon>TrackingApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TrackingApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TrackingList.Designer.vb">
+      <DependentUpon>TrackingList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TrackingList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TrackingReprint.Designer.vb">
+      <DependentUpon>TrackingReprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TrackingReprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Reprint.Designer.vb">
+      <DependentUpon>Reprint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Reprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\ServiceOrder.Designer.vb">
+      <DependentUpon>ServiceOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\ServiceOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TransferManifest.Designer.vb">
+      <DependentUpon>TransferManifest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\TransferManifest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="EASendMailObjLib\Mail.vb" />
+    <Compile Include="BCE_Account\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Chart.Designer.vb">
+      <DependentUpon>Chart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Chart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Commodity.Designer.vb">
+      <DependentUpon>Commodity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Commodity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Freight.Designer.vb">
+      <DependentUpon>Freight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Freight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Loading.Designer.vb">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Pay.Designer.vb">
+      <DependentUpon>Pay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Pay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\Service.Designer.vb">
+      <DependentUpon>Service.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\Service.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maintenance\UOM.Designer.vb">
+      <DependentUpon>UOM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\UOM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\cr_BDO.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_BDO.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\cr_CB.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_CB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\cr_Check.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_Check.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\cr_SOA.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_SOA.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StartupForm.vb" />
+    <Compile Include="MainMenu.Designer.vb">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\cr_HWB.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_HWB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\cr_TM.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_TM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\dsreport.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsreport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Accept.Designer.vb">
+      <DependentUpon>Accept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Accept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\CancelApp.Designer.vb">
+      <DependentUpon>CancelApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\CancelApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Outbound.Designer.vb">
+      <DependentUpon>Outbound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\Outbound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\OPS_PickUpList.Designer.vb">
+      <DependentUpon>OPS_PickUpList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\OPS_PickUpList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\PickupCancel.Designer.vb">
+      <DependentUpon>PickupCancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\PickupCancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\PickupDispatch.Designer.vb">
+      <DependentUpon>PickupDispatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\PickupDispatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\ShipmentStatus.Designer.vb">
+      <DependentUpon>ShipmentStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Operation\Transaction\ShipmentStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="BCE_Account\AcctReq.Designer.vb">
+      <DependentUpon>AcctReq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\AcctReq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_Account\SignIn.Designer.vb">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_Account\SignIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\PickUpSched.Designer.vb">
+      <DependentUpon>PickUpSched.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BCE_CustomerService\Transaction\PickUpSched.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\dsreport.vb">
+      <DependentUpon>dsreport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Syncfusion\Windows.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BCE_Account\AcctApp.resx">
+      <DependentUpon>AcctApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCEParent.resx">
+      <DependentUpon>BCEParent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\ChangePass.resx">
+      <DependentUpon>ChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\ForgotPwd.resx">
+      <DependentUpon>ForgotPwd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\NewLogin.resx">
+      <DependentUpon>NewLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\SwitchStation.resx">
+      <DependentUpon>SwitchStation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Report\CSReport.resx">
+      <DependentUpon>CSReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Report\KPI.resx">
+      <DependentUpon>KPI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\CS_DeliveryList.resx">
+      <DependentUpon>CS_DeliveryList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\CS_PickUpList.resx">
+      <DependentUpon>CS_PickUpList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\CSDashboard.resx">
+      <DependentUpon>CSDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\CS_Report.resx">
+      <DependentUpon>CS_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\Mod_PickupAdd.resx">
+      <DependentUpon>Mod_PickupAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\PickUpSched_Mod.resx">
+      <DependentUpon>PickUpSched_Mod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\POD.resx">
+      <DependentUpon>POD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\Receive.resx">
+      <DependentUpon>Receive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\Status.resx">
+      <DependentUpon>Status.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\SysLoading.resx">
+      <DependentUpon>SysLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Unbilled.resx">
+      <DependentUpon>Unbilled.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\BillingCanList.resx">
+      <DependentUpon>BillingCanList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\CostingList.resx">
+      <DependentUpon>CostingList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Billing.resx">
+      <DependentUpon>Billing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\BillingApp.resx">
+      <DependentUpon>BillingApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\BilledList.resx">
+      <DependentUpon>BilledList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\ForCosting.resx">
+      <DependentUpon>ForCosting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Reason.resx">
+      <DependentUpon>Reason.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\BillingRevList.resx">
+      <DependentUpon>BillingRevList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\BillingTrans.resx">
+      <DependentUpon>BillingTrans.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\BillingView.resx">
+      <DependentUpon>BillingView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Collection.resx">
+      <DependentUpon>Collection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\CollectionView.resx">
+      <DependentUpon>CollectionView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\CVApproval.resx">
+      <DependentUpon>CVApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\CVList.resx">
+      <DependentUpon>CVList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Disbursement.resx">
+      <DependentUpon>Disbursement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Costing.resx">
+      <DependentUpon>Costing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\CostingView.resx">
+      <DependentUpon>CostingView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Finance\Uncost.resx">
+      <DependentUpon>Uncost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\FileUpload.resx">
+      <DependentUpon>FileUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\DeliveryDispatch.resx">
+      <DependentUpon>DeliveryDispatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\HWB.resx">
+      <DependentUpon>HWB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Report\OpsReport.resx">
+      <DependentUpon>OpsReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\TM.resx">
+      <DependentUpon>TM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\TrackingApp.resx">
+      <DependentUpon>TrackingApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\TrackingList.resx">
+      <DependentUpon>TrackingList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\TrackingReprint.resx">
+      <DependentUpon>TrackingReprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\Accept.resx">
+      <DependentUpon>Accept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\CancelApp.resx">
+      <DependentUpon>CancelApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\Outbound.resx">
+      <DependentUpon>Outbound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\OPS_PickUpList.resx">
+      <DependentUpon>OPS_PickUpList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\PickupCancel.resx">
+      <DependentUpon>PickupCancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\PickupDispatch.resx">
+      <DependentUpon>PickupDispatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\Reprint.resx">
+      <DependentUpon>Reprint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\ServiceOrder.resx">
+      <DependentUpon>ServiceOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\ShipmentStatus.resx">
+      <DependentUpon>ShipmentStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Operation\Transaction\TransferManifest.resx">
+      <DependentUpon>TransferManifest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Chart.resx">
+      <DependentUpon>Chart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Commodity.resx">
+      <DependentUpon>Commodity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Freight.resx">
+      <DependentUpon>Freight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Loading.resx">
+      <DependentUpon>Loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\AcctReq.resx">
+      <DependentUpon>AcctReq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_Account\SignIn.resx">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BCE_CustomerService\Transaction\PickUpSched.resx">
+      <DependentUpon>PickUpSched.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Pay.resx">
+      <DependentUpon>Pay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\Service.resx">
+      <DependentUpon>Service.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maintenance\UOM.resx">
+      <DependentUpon>UOM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\My.Resources">
+      <CustomToolNamespace>Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_BDO.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_BDO.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_CB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_CB.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_Check.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_Check.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_HWB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_HWB.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_SOA.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_SOA.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\cr_TM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_TM.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Report\dsreport.xsc">
+      <DependentUpon>dsreport.xsd</DependentUpon>
+    </None>
+    <None Include="Report\dsreport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsreport.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Report\dsreport.xss">
+      <DependentUpon>dsreport.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CerroLogo.ico" />
+    <None Include="Resources\SKYJET_Airlines_Logo.png" />
+    <None Include="Resources\transasia.jpg" />
+    <None Include="Resources\solidshippingline.png" />
+    <None Include="Resources\skyjet.png" />
+    <None Include="Resources\panpacific3.png" />
+    <None Include="Resources\moreta.png" />
+    <None Include="Resources\malvar.png" />
+    <None Include="Resources\gothongline.png" />
+    <None Include="Resources\airswift.png" />
+    <None Include="Resources\2go.png" />
+    <None Include="Resources\newlogo.png" />
+    <None Include="Resources\Panpacificair2.png" />
+    <None Include="Resources\Panpacificair1.png" />
+    <None Include="Resources\Panpacificair.png" />
+    <None Include="Resources\Facebook-logo.png" />
+    <None Include="Resources\pal.JPG" />
+    <None Include="Resources\Cebu_Pacific_logo_2017_10_14_03_23_23.jpg" />
+    <None Include="Resources\airasia.png" />
+    <None Include="Resources\1.JPG" />
+    <None Include="Resources\pickup5.png" />
+    <None Include="Resources\open2.png" />
+    <None Include="Resources\pickup4.png" />
+    <None Include="Resources\pickup3.png" />
+    <None Include="Resources\pickup2.png" />
+    <None Include="Resources\pickup1.png" />
+    <None Include="Resources\Welcome.png" />
+    <None Include="Resources\UserName.png" />
+    <None Include="Resources\SIGNIN.png" />
+    <None Include="Resources\side_panel_bg01.fw.png" />
+    <None Include="Resources\ShipperDetailsLabel.png" />
+    <None Include="Resources\sampletext.png" />
+    <None Include="Resources\sales_chart_01.png" />
+    <None Include="Resources\ReceiverDetailsLabel.png" />
+    <None Include="Resources\Password.png" />
+    <None Include="Resources\logo01.fw.png" />
+    <None Include="Resources\LOGIN.png" />
+    <None Include="Resources\ItemDetailsLabel.png" />
+    <None Include="Resources\Forgot Password.png" />
+    <None Include="Resources\ChargesLabel.png" />
+    <None Include="Resources\CerroLogo.png" />
+    <None Include="Resources\CargoDetailsLabel.png" />
+    <None Include="Resources\BtnSmallArrow_Up.png" />
+    <None Include="Resources\BtnServiceOrderUp.png" />
+    <None Include="Resources\BtnServiceOrderDown.png" />
+    <None Include="Resources\BtnSalesReportUp.png" />
+    <None Include="Resources\BtnSalesReportDown.png" />
+    <None Include="Resources\BtnSalesQuotationUp.png" />
+    <None Include="Resources\BtnSalesQuotationDown.png" />
+    <None Include="Resources\BtnLoginUp.png" />
+    <None Include="Resources\BtnDeliveryUp.png" />
+    <None Include="Resources\BtnDeliveryDown.png" />
+    <None Include="Resources\BtnBusinessPartnerUp.png" />
+    <None Include="Resources\BtnBusinessPartnerDown.png" />
+    <None Include="Resources\BtnBookingUp.png" />
+    <None Include="Resources\BtnBookingDown.png" />
+    <None Include="Resources\bg02.fw.png" />
+    <None Include="Resources\bg01.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
