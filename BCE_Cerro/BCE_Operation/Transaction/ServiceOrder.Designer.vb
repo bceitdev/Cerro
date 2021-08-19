@@ -124,8 +124,7 @@ Partial Class ServiceOrder
         'MetroLabel1
         '
         Me.MetroLabel1.AutoSize = True
-        Me.MetroLabel1.Location = New System.Drawing.Point(0, 12)
-        Me.MetroLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel1.Location = New System.Drawing.Point(0, 8)
         Me.MetroLabel1.Name = "MetroLabel1"
         Me.MetroLabel1.Size = New System.Drawing.Size(57, 19)
         Me.MetroLabel1.TabIndex = 0
@@ -134,8 +133,7 @@ Partial Class ServiceOrder
         'rb_01
         '
         Me.rb_01.AutoSize = True
-        Me.rb_01.Location = New System.Drawing.Point(94, 17)
-        Me.rb_01.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.rb_01.Location = New System.Drawing.Point(63, 11)
         Me.rb_01.Name = "rb_01"
         Me.rb_01.Size = New System.Drawing.Size(47, 15)
         Me.rb_01.TabIndex = 0
@@ -145,8 +143,7 @@ Partial Class ServiceOrder
         'rb_02
         '
         Me.rb_02.AutoSize = True
-        Me.rb_02.Location = New System.Drawing.Point(174, 17)
-        Me.rb_02.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.rb_02.Location = New System.Drawing.Point(116, 11)
         Me.rb_02.Name = "rb_02"
         Me.rb_02.Size = New System.Drawing.Size(47, 15)
         Me.rb_02.TabIndex = 1
@@ -158,15 +155,14 @@ Partial Class ServiceOrder
         Me.MetroPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.MetroPanel1.HorizontalScrollbarBarColor = True
         Me.MetroPanel1.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel1.HorizontalScrollbarSize = 15
-        Me.MetroPanel1.Location = New System.Drawing.Point(0, 49)
-        Me.MetroPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel1.HorizontalScrollbarSize = 10
+        Me.MetroPanel1.Location = New System.Drawing.Point(0, 32)
         Me.MetroPanel1.Name = "MetroPanel1"
-        Me.MetroPanel1.Size = New System.Drawing.Size(1534, 0)
+        Me.MetroPanel1.Size = New System.Drawing.Size(1023, 1)
         Me.MetroPanel1.TabIndex = 5
         Me.MetroPanel1.VerticalScrollbarBarColor = True
         Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel1.VerticalScrollbarSize = 15
+        Me.MetroPanel1.VerticalScrollbarSize = 10
         '
         'MetroPanel2
         '
@@ -181,21 +177,19 @@ Partial Class ServiceOrder
         Me.MetroPanel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.MetroPanel2.HorizontalScrollbarBarColor = True
         Me.MetroPanel2.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel2.HorizontalScrollbarSize = 15
-        Me.MetroPanel2.Location = New System.Drawing.Point(30, 92)
-        Me.MetroPanel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel2.HorizontalScrollbarSize = 10
+        Me.MetroPanel2.Location = New System.Drawing.Point(20, 60)
         Me.MetroPanel2.Name = "MetroPanel2"
-        Me.MetroPanel2.Size = New System.Drawing.Size(1544, 52)
+        Me.MetroPanel2.Size = New System.Drawing.Size(1029, 34)
         Me.MetroPanel2.TabIndex = 1
         Me.MetroPanel2.VerticalScrollbarBarColor = True
         Me.MetroPanel2.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel2.VerticalScrollbarSize = 15
+        Me.MetroPanel2.VerticalScrollbarSize = 10
         '
         'MetroLabel20
         '
         Me.MetroLabel20.AutoSize = True
-        Me.MetroLabel20.Location = New System.Drawing.Point(844, 14)
-        Me.MetroLabel20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel20.Location = New System.Drawing.Point(563, 9)
         Me.MetroLabel20.Name = "MetroLabel20"
         Me.MetroLabel20.Size = New System.Drawing.Size(67, 19)
         Me.MetroLabel20.TabIndex = 112
@@ -210,18 +204,16 @@ Partial Class ServiceOrder
         Me.txt_hwbno.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_hwbno.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_hwbno.CustomButton.Image = Nothing
-        Me.txt_hwbno.CustomButton.Location = New System.Drawing.Point(321, 2)
-        Me.txt_hwbno.CustomButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_hwbno.CustomButton.Location = New System.Drawing.Point(143, 1)
         Me.txt_hwbno.CustomButton.Name = ""
-        Me.txt_hwbno.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_hwbno.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_hwbno.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_hwbno.CustomButton.TabIndex = 1
         Me.txt_hwbno.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_hwbno.CustomButton.UseSelectable = True
         Me.txt_hwbno.CustomButton.Visible = False
         Me.txt_hwbno.Lines = New String(-1) {}
-        Me.txt_hwbno.Location = New System.Drawing.Point(954, 9)
-        Me.txt_hwbno.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_hwbno.Location = New System.Drawing.Point(636, 6)
         Me.txt_hwbno.MaxLength = 32767
         Me.txt_hwbno.Name = "txt_hwbno"
         Me.txt_hwbno.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -232,7 +224,7 @@ Partial Class ServiceOrder
         Me.txt_hwbno.SelectionStart = 0
         Me.txt_hwbno.ShortcutsEnabled = True
         Me.txt_hwbno.ShowClearButton = True
-        Me.txt_hwbno.Size = New System.Drawing.Size(248, 35)
+        Me.txt_hwbno.Size = New System.Drawing.Size(165, 23)
         Me.txt_hwbno.TabIndex = 2
         Me.txt_hwbno.UseSelectable = True
         Me.txt_hwbno.WaterMark = "Input HWB here"
@@ -242,18 +234,16 @@ Partial Class ServiceOrder
         'dtp_Date
         '
         Me.dtp_Date.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtp_Date.Location = New System.Drawing.Point(1366, 5)
-        Me.dtp_Date.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.dtp_Date.Location = New System.Drawing.Point(911, 3)
         Me.dtp_Date.MinimumSize = New System.Drawing.Size(0, 29)
         Me.dtp_Date.Name = "dtp_Date"
-        Me.dtp_Date.Size = New System.Drawing.Size(170, 29)
+        Me.dtp_Date.Size = New System.Drawing.Size(115, 29)
         Me.dtp_Date.TabIndex = 10
         '
         'MetroLabel2
         '
         Me.MetroLabel2.AutoSize = True
-        Me.MetroLabel2.Location = New System.Drawing.Point(1210, 14)
-        Me.MetroLabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel2.Location = New System.Drawing.Point(807, 9)
         Me.MetroLabel2.Name = "MetroLabel2"
         Me.MetroLabel2.Size = New System.Drawing.Size(98, 19)
         Me.MetroLabel2.TabIndex = 98
@@ -262,10 +252,9 @@ Partial Class ServiceOrder
         'cbo_Carrier
         '
         Me.cbo_Carrier.FormattingEnabled = True
-        Me.cbo_Carrier.Location = New System.Drawing.Point(921, 31)
-        Me.cbo_Carrier.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Carrier.Location = New System.Drawing.Point(614, 20)
         Me.cbo_Carrier.Name = "cbo_Carrier"
-        Me.cbo_Carrier.Size = New System.Drawing.Size(280, 28)
+        Me.cbo_Carrier.Size = New System.Drawing.Size(188, 21)
         Me.cbo_Carrier.TabIndex = 11
         Me.cbo_Carrier.Visible = False
         '
@@ -278,25 +267,23 @@ Partial Class ServiceOrder
         Me.MetroPanel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MetroPanel3.HorizontalScrollbarBarColor = True
         Me.MetroPanel3.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel3.HorizontalScrollbarSize = 15
-        Me.MetroPanel3.Location = New System.Drawing.Point(30, 144)
-        Me.MetroPanel3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel3.HorizontalScrollbarSize = 10
+        Me.MetroPanel3.Location = New System.Drawing.Point(20, 94)
         Me.MetroPanel3.Name = "MetroPanel3"
-        Me.MetroPanel3.Size = New System.Drawing.Size(1544, 685)
+        Me.MetroPanel3.Size = New System.Drawing.Size(1029, 445)
         Me.MetroPanel3.TabIndex = 7
         Me.MetroPanel3.VerticalScrollbarBarColor = True
         Me.MetroPanel3.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel3.VerticalScrollbarSize = 15
+        Me.MetroPanel3.VerticalScrollbarSize = 10
         '
         'MetroTabControl4
         '
         Me.MetroTabControl4.Controls.Add(Me.MetroTabPage4)
         Me.MetroTabControl4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.MetroTabControl4.Location = New System.Drawing.Point(0, 483)
-        Me.MetroTabControl4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroTabControl4.Location = New System.Drawing.Point(0, 314)
         Me.MetroTabControl4.Name = "MetroTabControl4"
         Me.MetroTabControl4.SelectedIndex = 0
-        Me.MetroTabControl4.Size = New System.Drawing.Size(698, 202)
+        Me.MetroTabControl4.Size = New System.Drawing.Size(465, 131)
         Me.MetroTabControl4.TabIndex = 9
         Me.MetroTabControl4.UseSelectable = True
         '
@@ -307,17 +294,16 @@ Partial Class ServiceOrder
         Me.MetroTabPage4.Controls.Add(Me.MetroPanel7)
         Me.MetroTabPage4.HorizontalScrollbarBarColor = True
         Me.MetroTabPage4.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage4.HorizontalScrollbarSize = 15
+        Me.MetroTabPage4.HorizontalScrollbarSize = 10
         Me.MetroTabPage4.Location = New System.Drawing.Point(4, 38)
-        Me.MetroTabPage4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroTabPage4.Name = "MetroTabPage4"
-        Me.MetroTabPage4.Size = New System.Drawing.Size(690, 160)
+        Me.MetroTabPage4.Size = New System.Drawing.Size(457, 89)
         Me.MetroTabPage4.Style = MetroFramework.MetroColorStyle.Teal
         Me.MetroTabPage4.TabIndex = 0
         Me.MetroTabPage4.Text = "Location"
         Me.MetroTabPage4.VerticalScrollbarBarColor = True
         Me.MetroTabPage4.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage4.VerticalScrollbarSize = 15
+        Me.MetroTabPage4.VerticalScrollbarSize = 10
         '
         'MetroPanel8
         '
@@ -327,23 +313,21 @@ Partial Class ServiceOrder
         Me.MetroPanel8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MetroPanel8.HorizontalScrollbarBarColor = True
         Me.MetroPanel8.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel8.HorizontalScrollbarSize = 15
-        Me.MetroPanel8.Location = New System.Drawing.Point(346, 0)
-        Me.MetroPanel8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel8.HorizontalScrollbarSize = 10
+        Me.MetroPanel8.Location = New System.Drawing.Point(231, 0)
         Me.MetroPanel8.Name = "MetroPanel8"
-        Me.MetroPanel8.Size = New System.Drawing.Size(342, 158)
+        Me.MetroPanel8.Size = New System.Drawing.Size(224, 87)
         Me.MetroPanel8.TabIndex = 68
         Me.MetroPanel8.VerticalScrollbarBarColor = True
         Me.MetroPanel8.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel8.VerticalScrollbarSize = 15
+        Me.MetroPanel8.VerticalScrollbarSize = 10
         '
         'cbo_Dest
         '
         Me.cbo_Dest.FormattingEnabled = True
-        Me.cbo_Dest.Location = New System.Drawing.Point(22, 42)
-        Me.cbo_Dest.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Dest.Location = New System.Drawing.Point(15, 27)
         Me.cbo_Dest.Name = "cbo_Dest"
-        Me.cbo_Dest.Size = New System.Drawing.Size(288, 28)
+        Me.cbo_Dest.Size = New System.Drawing.Size(193, 21)
         Me.cbo_Dest.TabIndex = 9
         '
         'MetroLabel15
@@ -353,7 +337,6 @@ Partial Class ServiceOrder
         Me.MetroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Regular
         Me.MetroLabel15.ForeColor = System.Drawing.Color.Gray
         Me.MetroLabel15.Location = New System.Drawing.Point(0, 0)
-        Me.MetroLabel15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel15.Name = "MetroLabel15"
         Me.MetroLabel15.Size = New System.Drawing.Size(79, 19)
         Me.MetroLabel15.TabIndex = 20
@@ -368,15 +351,14 @@ Partial Class ServiceOrder
         Me.MetroPanel7.Dock = System.Windows.Forms.DockStyle.Left
         Me.MetroPanel7.HorizontalScrollbarBarColor = True
         Me.MetroPanel7.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel7.HorizontalScrollbarSize = 15
+        Me.MetroPanel7.HorizontalScrollbarSize = 10
         Me.MetroPanel7.Location = New System.Drawing.Point(0, 0)
-        Me.MetroPanel7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroPanel7.Name = "MetroPanel7"
-        Me.MetroPanel7.Size = New System.Drawing.Size(346, 158)
+        Me.MetroPanel7.Size = New System.Drawing.Size(231, 87)
         Me.MetroPanel7.TabIndex = 67
         Me.MetroPanel7.VerticalScrollbarBarColor = True
         Me.MetroPanel7.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel7.VerticalScrollbarSize = 15
+        Me.MetroPanel7.VerticalScrollbarSize = 10
         '
         'MetroLabel18
         '
@@ -385,7 +367,6 @@ Partial Class ServiceOrder
         Me.MetroLabel18.FontWeight = MetroFramework.MetroLabelWeight.Regular
         Me.MetroLabel18.ForeColor = System.Drawing.Color.Gray
         Me.MetroLabel18.Location = New System.Drawing.Point(0, 0)
-        Me.MetroLabel18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel18.Name = "MetroLabel18"
         Me.MetroLabel18.Size = New System.Drawing.Size(47, 19)
         Me.MetroLabel18.TabIndex = 20
@@ -395,21 +376,19 @@ Partial Class ServiceOrder
         'cbo_Orig
         '
         Me.cbo_Orig.FormattingEnabled = True
-        Me.cbo_Orig.Location = New System.Drawing.Point(28, 42)
-        Me.cbo_Orig.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Orig.Location = New System.Drawing.Point(19, 27)
         Me.cbo_Orig.Name = "cbo_Orig"
-        Me.cbo_Orig.Size = New System.Drawing.Size(288, 28)
+        Me.cbo_Orig.Size = New System.Drawing.Size(193, 21)
         Me.cbo_Orig.TabIndex = 8
         '
         'MetroTabControl2
         '
         Me.MetroTabControl2.Controls.Add(Me.MetroTabPage2)
         Me.MetroTabControl2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.MetroTabControl2.Location = New System.Drawing.Point(0, 229)
-        Me.MetroTabControl2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroTabControl2.Location = New System.Drawing.Point(0, 149)
         Me.MetroTabControl2.Name = "MetroTabControl2"
         Me.MetroTabControl2.SelectedIndex = 0
-        Me.MetroTabControl2.Size = New System.Drawing.Size(698, 254)
+        Me.MetroTabControl2.Size = New System.Drawing.Size(465, 165)
         Me.MetroTabControl2.TabIndex = 5
         Me.MetroTabControl2.UseSelectable = True
         '
@@ -421,17 +400,16 @@ Partial Class ServiceOrder
         Me.MetroTabPage2.Controls.Add(Me.txt_Address)
         Me.MetroTabPage2.HorizontalScrollbarBarColor = True
         Me.MetroTabPage2.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage2.HorizontalScrollbarSize = 15
+        Me.MetroTabPage2.HorizontalScrollbarSize = 10
         Me.MetroTabPage2.Location = New System.Drawing.Point(4, 38)
-        Me.MetroTabPage2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroTabPage2.Name = "MetroTabPage2"
-        Me.MetroTabPage2.Size = New System.Drawing.Size(690, 212)
+        Me.MetroTabPage2.Size = New System.Drawing.Size(457, 123)
         Me.MetroTabPage2.Style = MetroFramework.MetroColorStyle.Teal
         Me.MetroTabPage2.TabIndex = 0
         Me.MetroTabPage2.Text = "Consignee"
         Me.MetroTabPage2.VerticalScrollbarBarColor = True
         Me.MetroTabPage2.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage2.VerticalScrollbarSize = 15
+        Me.MetroTabPage2.VerticalScrollbarSize = 10
         '
         'txt_Con_Phone
         '
@@ -442,18 +420,16 @@ Partial Class ServiceOrder
         Me.txt_Con_Phone.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_Con_Phone.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_Con_Phone.CustomButton.Image = Nothing
-        Me.txt_Con_Phone.CustomButton.Location = New System.Drawing.Point(882, 2)
-        Me.txt_Con_Phone.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Con_Phone.CustomButton.Location = New System.Drawing.Point(393, 1)
         Me.txt_Con_Phone.CustomButton.Name = ""
-        Me.txt_Con_Phone.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Con_Phone.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Con_Phone.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Con_Phone.CustomButton.TabIndex = 1
         Me.txt_Con_Phone.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Con_Phone.CustomButton.UseSelectable = True
         Me.txt_Con_Phone.CustomButton.Visible = False
         Me.txt_Con_Phone.Lines = New String(-1) {}
-        Me.txt_Con_Phone.Location = New System.Drawing.Point(30, 120)
-        Me.txt_Con_Phone.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Con_Phone.Location = New System.Drawing.Point(20, 78)
         Me.txt_Con_Phone.MaxLength = 32767
         Me.txt_Con_Phone.Name = "txt_Con_Phone"
         Me.txt_Con_Phone.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -464,7 +440,7 @@ Partial Class ServiceOrder
         Me.txt_Con_Phone.SelectionStart = 0
         Me.txt_Con_Phone.ShortcutsEnabled = True
         Me.txt_Con_Phone.ShowClearButton = True
-        Me.txt_Con_Phone.Size = New System.Drawing.Size(622, 35)
+        Me.txt_Con_Phone.Size = New System.Drawing.Size(415, 23)
         Me.txt_Con_Phone.TabIndex = 7
         Me.txt_Con_Phone.UseSelectable = True
         Me.txt_Con_Phone.WaterMark = "Phone"
@@ -477,18 +453,16 @@ Partial Class ServiceOrder
         '
         '
         Me.txt_Consignee.CustomButton.Image = Nothing
-        Me.txt_Consignee.CustomButton.Location = New System.Drawing.Point(882, 2)
-        Me.txt_Consignee.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Consignee.CustomButton.Location = New System.Drawing.Point(393, 1)
         Me.txt_Consignee.CustomButton.Name = ""
-        Me.txt_Consignee.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Consignee.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Consignee.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Consignee.CustomButton.TabIndex = 1
         Me.txt_Consignee.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Consignee.CustomButton.UseSelectable = True
         Me.txt_Consignee.CustomButton.Visible = False
         Me.txt_Consignee.Lines = New String(-1) {}
-        Me.txt_Consignee.Location = New System.Drawing.Point(30, 31)
-        Me.txt_Consignee.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Consignee.Location = New System.Drawing.Point(20, 20)
         Me.txt_Consignee.MaxLength = 32767
         Me.txt_Consignee.Name = "txt_Consignee"
         Me.txt_Consignee.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -498,7 +472,7 @@ Partial Class ServiceOrder
         Me.txt_Consignee.SelectionLength = 0
         Me.txt_Consignee.SelectionStart = 0
         Me.txt_Consignee.ShortcutsEnabled = True
-        Me.txt_Consignee.Size = New System.Drawing.Size(622, 35)
+        Me.txt_Consignee.Size = New System.Drawing.Size(415, 23)
         Me.txt_Consignee.TabIndex = 5
         Me.txt_Consignee.UseSelectable = True
         Me.txt_Consignee.WaterMark = "Company or Individual"
@@ -514,18 +488,16 @@ Partial Class ServiceOrder
         Me.txt_Address.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_Address.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_Address.CustomButton.Image = Nothing
-        Me.txt_Address.CustomButton.Location = New System.Drawing.Point(882, 2)
-        Me.txt_Address.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Address.CustomButton.Location = New System.Drawing.Point(393, 1)
         Me.txt_Address.CustomButton.Name = ""
-        Me.txt_Address.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Address.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Address.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Address.CustomButton.TabIndex = 1
         Me.txt_Address.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Address.CustomButton.UseSelectable = True
         Me.txt_Address.CustomButton.Visible = False
         Me.txt_Address.Lines = New String(-1) {}
-        Me.txt_Address.Location = New System.Drawing.Point(30, 75)
-        Me.txt_Address.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Address.Location = New System.Drawing.Point(20, 49)
         Me.txt_Address.MaxLength = 32767
         Me.txt_Address.Name = "txt_Address"
         Me.txt_Address.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -536,7 +508,7 @@ Partial Class ServiceOrder
         Me.txt_Address.SelectionStart = 0
         Me.txt_Address.ShortcutsEnabled = True
         Me.txt_Address.ShowClearButton = True
-        Me.txt_Address.Size = New System.Drawing.Size(622, 35)
+        Me.txt_Address.Size = New System.Drawing.Size(415, 23)
         Me.txt_Address.TabIndex = 6
         Me.txt_Address.UseSelectable = True
         Me.txt_Address.WaterMark = "Complete Address"
@@ -548,10 +520,9 @@ Partial Class ServiceOrder
         Me.MetroTabControl1.Controls.Add(Me.MetroTabPage1)
         Me.MetroTabControl1.Dock = System.Windows.Forms.DockStyle.Top
         Me.MetroTabControl1.Location = New System.Drawing.Point(0, 0)
-        Me.MetroTabControl1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroTabControl1.Name = "MetroTabControl1"
         Me.MetroTabControl1.SelectedIndex = 0
-        Me.MetroTabControl1.Size = New System.Drawing.Size(698, 229)
+        Me.MetroTabControl1.Size = New System.Drawing.Size(465, 149)
         Me.MetroTabControl1.TabIndex = 2
         Me.MetroTabControl1.UseSelectable = True
         '
@@ -563,16 +534,15 @@ Partial Class ServiceOrder
         Me.MetroTabPage1.Controls.Add(Me.txt_02)
         Me.MetroTabPage1.HorizontalScrollbarBarColor = True
         Me.MetroTabPage1.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage1.HorizontalScrollbarSize = 15
+        Me.MetroTabPage1.HorizontalScrollbarSize = 10
         Me.MetroTabPage1.Location = New System.Drawing.Point(4, 38)
-        Me.MetroTabPage1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroTabPage1.Name = "MetroTabPage1"
-        Me.MetroTabPage1.Size = New System.Drawing.Size(690, 187)
+        Me.MetroTabPage1.Size = New System.Drawing.Size(457, 107)
         Me.MetroTabPage1.TabIndex = 0
         Me.MetroTabPage1.Text = "Shipper"
         Me.MetroTabPage1.VerticalScrollbarBarColor = True
         Me.MetroTabPage1.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage1.VerticalScrollbarSize = 15
+        Me.MetroTabPage1.VerticalScrollbarSize = 10
         '
         'txt_01
         '
@@ -583,18 +553,16 @@ Partial Class ServiceOrder
         Me.txt_01.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_01.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_01.CustomButton.Image = Nothing
-        Me.txt_01.CustomButton.Location = New System.Drawing.Point(882, 2)
-        Me.txt_01.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_01.CustomButton.Location = New System.Drawing.Point(393, 1)
         Me.txt_01.CustomButton.Name = ""
-        Me.txt_01.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_01.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_01.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_01.CustomButton.TabIndex = 1
         Me.txt_01.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_01.CustomButton.UseSelectable = True
         Me.txt_01.CustomButton.Visible = False
         Me.txt_01.Lines = New String(-1) {}
-        Me.txt_01.Location = New System.Drawing.Point(30, 40)
-        Me.txt_01.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_01.Location = New System.Drawing.Point(20, 26)
         Me.txt_01.MaxLength = 32767
         Me.txt_01.Name = "txt_01"
         Me.txt_01.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -605,7 +573,7 @@ Partial Class ServiceOrder
         Me.txt_01.SelectionStart = 0
         Me.txt_01.ShortcutsEnabled = True
         Me.txt_01.ShowClearButton = True
-        Me.txt_01.Size = New System.Drawing.Size(622, 35)
+        Me.txt_01.Size = New System.Drawing.Size(415, 23)
         Me.txt_01.TabIndex = 3
         Me.txt_01.UseSelectable = True
         Me.txt_01.WaterMark = "Company or Individual"
@@ -621,18 +589,16 @@ Partial Class ServiceOrder
         Me.txt_Ship_Phone.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_Ship_Phone.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_Ship_Phone.CustomButton.Image = Nothing
-        Me.txt_Ship_Phone.CustomButton.Location = New System.Drawing.Point(882, 2)
-        Me.txt_Ship_Phone.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Ship_Phone.CustomButton.Location = New System.Drawing.Point(393, 1)
         Me.txt_Ship_Phone.CustomButton.Name = ""
-        Me.txt_Ship_Phone.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Ship_Phone.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Ship_Phone.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Ship_Phone.CustomButton.TabIndex = 1
         Me.txt_Ship_Phone.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Ship_Phone.CustomButton.UseSelectable = True
         Me.txt_Ship_Phone.CustomButton.Visible = False
         Me.txt_Ship_Phone.Lines = New String(-1) {}
-        Me.txt_Ship_Phone.Location = New System.Drawing.Point(30, 85)
-        Me.txt_Ship_Phone.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Ship_Phone.Location = New System.Drawing.Point(20, 55)
         Me.txt_Ship_Phone.MaxLength = 32767
         Me.txt_Ship_Phone.Name = "txt_Ship_Phone"
         Me.txt_Ship_Phone.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -643,7 +609,7 @@ Partial Class ServiceOrder
         Me.txt_Ship_Phone.SelectionStart = 0
         Me.txt_Ship_Phone.ShortcutsEnabled = True
         Me.txt_Ship_Phone.ShowClearButton = True
-        Me.txt_Ship_Phone.Size = New System.Drawing.Size(622, 35)
+        Me.txt_Ship_Phone.Size = New System.Drawing.Size(415, 23)
         Me.txt_Ship_Phone.TabIndex = 4
         Me.txt_Ship_Phone.UseSelectable = True
         Me.txt_Ship_Phone.WaterMark = "Phone"
@@ -659,18 +625,16 @@ Partial Class ServiceOrder
         Me.txt_02.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_02.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_02.CustomButton.Image = Nothing
-        Me.txt_02.CustomButton.Location = New System.Drawing.Point(882, 2)
-        Me.txt_02.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_02.CustomButton.Location = New System.Drawing.Point(393, 1)
         Me.txt_02.CustomButton.Name = ""
-        Me.txt_02.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_02.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_02.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_02.CustomButton.TabIndex = 1
         Me.txt_02.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_02.CustomButton.UseSelectable = True
         Me.txt_02.CustomButton.Visible = False
         Me.txt_02.Lines = New String(-1) {}
-        Me.txt_02.Location = New System.Drawing.Point(30, 40)
-        Me.txt_02.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_02.Location = New System.Drawing.Point(20, 26)
         Me.txt_02.MaxLength = 32767
         Me.txt_02.Name = "txt_02"
         Me.txt_02.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -681,7 +645,7 @@ Partial Class ServiceOrder
         Me.txt_02.SelectionStart = 0
         Me.txt_02.ShortcutsEnabled = True
         Me.txt_02.ShowClearButton = True
-        Me.txt_02.Size = New System.Drawing.Size(622, 35)
+        Me.txt_02.Size = New System.Drawing.Size(415, 23)
         Me.txt_02.TabIndex = 16
         Me.txt_02.UseSelectable = True
         Me.txt_02.Visible = False
@@ -693,11 +657,10 @@ Partial Class ServiceOrder
         '
         Me.MetroTabControl3.Controls.Add(Me.MetroTabPage3)
         Me.MetroTabControl3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.MetroTabControl3.Location = New System.Drawing.Point(698, 0)
-        Me.MetroTabControl3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroTabControl3.Location = New System.Drawing.Point(465, 0)
         Me.MetroTabControl3.Name = "MetroTabControl3"
         Me.MetroTabControl3.SelectedIndex = 0
-        Me.MetroTabControl3.Size = New System.Drawing.Size(846, 685)
+        Me.MetroTabControl3.Size = New System.Drawing.Size(564, 445)
         Me.MetroTabControl3.TabIndex = 12
         Me.MetroTabControl3.UseSelectable = True
         '
@@ -709,16 +672,15 @@ Partial Class ServiceOrder
         Me.MetroTabPage3.Controls.Add(Me.MetroPanel5)
         Me.MetroTabPage3.HorizontalScrollbarBarColor = True
         Me.MetroTabPage3.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage3.HorizontalScrollbarSize = 15
+        Me.MetroTabPage3.HorizontalScrollbarSize = 10
         Me.MetroTabPage3.Location = New System.Drawing.Point(4, 38)
-        Me.MetroTabPage3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroTabPage3.Name = "MetroTabPage3"
-        Me.MetroTabPage3.Size = New System.Drawing.Size(838, 643)
+        Me.MetroTabPage3.Size = New System.Drawing.Size(556, 403)
         Me.MetroTabPage3.TabIndex = 0
         Me.MetroTabPage3.Text = "Shipment"
         Me.MetroTabPage3.VerticalScrollbarBarColor = True
         Me.MetroTabPage3.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage3.VerticalScrollbarSize = 15
+        Me.MetroTabPage3.VerticalScrollbarSize = 10
         '
         'MetroPanel9
         '
@@ -731,22 +693,20 @@ Partial Class ServiceOrder
         Me.MetroPanel9.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MetroPanel9.HorizontalScrollbarBarColor = True
         Me.MetroPanel9.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel9.HorizontalScrollbarSize = 15
-        Me.MetroPanel9.Location = New System.Drawing.Point(0, 438)
-        Me.MetroPanel9.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel9.HorizontalScrollbarSize = 10
+        Me.MetroPanel9.Location = New System.Drawing.Point(0, 286)
         Me.MetroPanel9.Name = "MetroPanel9"
-        Me.MetroPanel9.Size = New System.Drawing.Size(836, 203)
+        Me.MetroPanel9.Size = New System.Drawing.Size(554, 115)
         Me.MetroPanel9.TabIndex = 66
         Me.MetroPanel9.VerticalScrollbarBarColor = True
         Me.MetroPanel9.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel9.VerticalScrollbarSize = 15
+        Me.MetroPanel9.VerticalScrollbarSize = 10
         '
         'lbl_TotalVol
         '
         Me.lbl_TotalVol.AutoSize = True
         Me.lbl_TotalVol.ForeColor = System.Drawing.Color.Red
-        Me.lbl_TotalVol.Location = New System.Drawing.Point(642, 98)
-        Me.lbl_TotalVol.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_TotalVol.Location = New System.Drawing.Point(428, 64)
         Me.lbl_TotalVol.Name = "lbl_TotalVol"
         Me.lbl_TotalVol.Size = New System.Drawing.Size(16, 19)
         Me.lbl_TotalVol.TabIndex = 59
@@ -757,8 +717,7 @@ Partial Class ServiceOrder
         '
         Me.lbl_TotalQty.AutoSize = True
         Me.lbl_TotalQty.ForeColor = System.Drawing.Color.Red
-        Me.lbl_TotalQty.Location = New System.Drawing.Point(642, 57)
-        Me.lbl_TotalQty.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_TotalQty.Location = New System.Drawing.Point(428, 37)
         Me.lbl_TotalQty.Name = "lbl_TotalQty"
         Me.lbl_TotalQty.Size = New System.Drawing.Size(16, 19)
         Me.lbl_TotalQty.TabIndex = 58
@@ -768,8 +727,7 @@ Partial Class ServiceOrder
         'MetroLabel16
         '
         Me.MetroLabel16.AutoSize = True
-        Me.MetroLabel16.Location = New System.Drawing.Point(459, 57)
-        Me.MetroLabel16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel16.Location = New System.Drawing.Point(306, 37)
         Me.MetroLabel16.Name = "MetroLabel16"
         Me.MetroLabel16.Size = New System.Drawing.Size(92, 19)
         Me.MetroLabel16.TabIndex = 57
@@ -778,8 +736,7 @@ Partial Class ServiceOrder
         'MetroLabel4
         '
         Me.MetroLabel4.AutoSize = True
-        Me.MetroLabel4.Location = New System.Drawing.Point(459, 98)
-        Me.MetroLabel4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel4.Location = New System.Drawing.Point(306, 64)
         Me.MetroLabel4.Name = "MetroLabel4"
         Me.MetroLabel4.Size = New System.Drawing.Size(119, 19)
         Me.MetroLabel4.TabIndex = 56
@@ -818,7 +775,6 @@ Partial Class ServiceOrder
         Me.dgv_Dimension.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.dgv_Dimension.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgv_Dimension.Location = New System.Drawing.Point(0, 0)
-        Me.dgv_Dimension.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.dgv_Dimension.Name = "dgv_Dimension"
         Me.dgv_Dimension.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -832,7 +788,7 @@ Partial Class ServiceOrder
         Me.dgv_Dimension.RowHeadersWidth = 35
         Me.dgv_Dimension.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.dgv_Dimension.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_Dimension.Size = New System.Drawing.Size(452, 203)
+        Me.dgv_Dimension.Size = New System.Drawing.Size(301, 115)
         Me.dgv_Dimension.TabIndex = 23
         '
         'Column1
@@ -840,28 +796,28 @@ Partial Class ServiceOrder
         Me.Column1.HeaderText = "L"
         Me.Column1.MinimumWidth = 8
         Me.Column1.Name = "Column1"
-        Me.Column1.Width = 46
+        Me.Column1.Width = 35
         '
         'Column3
         '
         Me.Column3.HeaderText = "W"
         Me.Column3.MinimumWidth = 8
         Me.Column3.Name = "Column3"
-        Me.Column3.Width = 52
+        Me.Column3.Width = 41
         '
         'Column4
         '
         Me.Column4.HeaderText = "H"
         Me.Column4.MinimumWidth = 8
         Me.Column4.Name = "Column4"
-        Me.Column4.Width = 49
+        Me.Column4.Width = 38
         '
         'Column5
         '
         Me.Column5.HeaderText = "Qty"
         Me.Column5.MinimumWidth = 8
         Me.Column5.Name = "Column5"
-        Me.Column5.Width = 58
+        Me.Column5.Width = 47
         '
         'Column6
         '
@@ -871,7 +827,7 @@ Partial Class ServiceOrder
         Me.Column6.HeaderText = "Vol"
         Me.Column6.MinimumWidth = 8
         Me.Column6.Name = "Column6"
-        Me.Column6.Width = 57
+        Me.Column6.Width = 46
         '
         'dgv_DimensionDummy
         '
@@ -904,7 +860,6 @@ Partial Class ServiceOrder
         Me.dgv_DimensionDummy.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.dgv_DimensionDummy.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dgv_DimensionDummy.Location = New System.Drawing.Point(0, 0)
-        Me.dgv_DimensionDummy.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.dgv_DimensionDummy.Name = "dgv_DimensionDummy"
         Me.dgv_DimensionDummy.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -918,7 +873,7 @@ Partial Class ServiceOrder
         Me.dgv_DimensionDummy.RowHeadersWidth = 35
         Me.dgv_DimensionDummy.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.dgv_DimensionDummy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_DimensionDummy.Size = New System.Drawing.Size(452, 168)
+        Me.dgv_DimensionDummy.Size = New System.Drawing.Size(301, 109)
         Me.dgv_DimensionDummy.TabIndex = 60
         Me.dgv_DimensionDummy.Visible = False
         '
@@ -942,47 +897,42 @@ Partial Class ServiceOrder
         Me.MetroPanel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.MetroPanel4.HorizontalScrollbarBarColor = True
         Me.MetroPanel4.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel4.HorizontalScrollbarSize = 15
-        Me.MetroPanel4.Location = New System.Drawing.Point(0, 213)
-        Me.MetroPanel4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel4.HorizontalScrollbarSize = 10
+        Me.MetroPanel4.Location = New System.Drawing.Point(0, 139)
         Me.MetroPanel4.Name = "MetroPanel4"
-        Me.MetroPanel4.Size = New System.Drawing.Size(836, 225)
+        Me.MetroPanel4.Size = New System.Drawing.Size(554, 147)
         Me.MetroPanel4.TabIndex = 65
         Me.MetroPanel4.VerticalScrollbarBarColor = True
         Me.MetroPanel4.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel4.VerticalScrollbarSize = 15
+        Me.MetroPanel4.VerticalScrollbarSize = 10
         '
         'cbo_Uom
         '
         Me.cbo_Uom.FormattingEnabled = True
-        Me.cbo_Uom.Location = New System.Drawing.Point(680, 42)
-        Me.cbo_Uom.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Uom.Location = New System.Drawing.Point(453, 27)
         Me.cbo_Uom.Name = "cbo_Uom"
-        Me.cbo_Uom.Size = New System.Drawing.Size(133, 28)
+        Me.cbo_Uom.Size = New System.Drawing.Size(90, 21)
         Me.cbo_Uom.TabIndex = 17
         '
         'cbo_Type
         '
         Me.cbo_Type.FormattingEnabled = True
-        Me.cbo_Type.Location = New System.Drawing.Point(184, 42)
-        Me.cbo_Type.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Type.Location = New System.Drawing.Point(123, 27)
         Me.cbo_Type.Name = "cbo_Type"
-        Me.cbo_Type.Size = New System.Drawing.Size(416, 28)
+        Me.cbo_Type.Size = New System.Drawing.Size(279, 21)
         Me.cbo_Type.TabIndex = 16
         '
         'lbl_UomDesc
         '
-        Me.lbl_UomDesc.Location = New System.Drawing.Point(680, 83)
-        Me.lbl_UomDesc.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_UomDesc.Location = New System.Drawing.Point(453, 54)
         Me.lbl_UomDesc.Name = "lbl_UomDesc"
-        Me.lbl_UomDesc.Size = New System.Drawing.Size(135, 29)
+        Me.lbl_UomDesc.Size = New System.Drawing.Size(90, 19)
         Me.lbl_UomDesc.TabIndex = 72
         '
         'MetroLabel19
         '
         Me.MetroLabel19.AutoSize = True
-        Me.MetroLabel19.Location = New System.Drawing.Point(612, 45)
-        Me.MetroLabel19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel19.Location = New System.Drawing.Point(408, 29)
         Me.MetroLabel19.Name = "MetroLabel19"
         Me.MetroLabel19.Size = New System.Drawing.Size(44, 19)
         Me.MetroLabel19.TabIndex = 68
@@ -991,8 +941,7 @@ Partial Class ServiceOrder
         'MetroLabel7
         '
         Me.MetroLabel7.AutoSize = True
-        Me.MetroLabel7.Location = New System.Drawing.Point(366, 134)
-        Me.MetroLabel7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel7.Location = New System.Drawing.Point(244, 87)
         Me.MetroLabel7.Name = "MetroLabel7"
         Me.MetroLabel7.Size = New System.Drawing.Size(53, 19)
         Me.MetroLabel7.TabIndex = 67
@@ -1004,10 +953,9 @@ Partial Class ServiceOrder
         '
         '
         Me.txt_SpeIns.CustomButton.Image = Nothing
-        Me.txt_SpeIns.CustomButton.Location = New System.Drawing.Point(576, 2)
-        Me.txt_SpeIns.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_SpeIns.CustomButton.Location = New System.Drawing.Point(257, 1)
         Me.txt_SpeIns.CustomButton.Name = ""
-        Me.txt_SpeIns.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_SpeIns.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_SpeIns.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_SpeIns.CustomButton.TabIndex = 1
         Me.txt_SpeIns.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
@@ -1016,8 +964,7 @@ Partial Class ServiceOrder
         Me.txt_SpeIns.FontSize = MetroFramework.MetroTextBoxSize.Medium
         Me.txt_SpeIns.FontWeight = MetroFramework.MetroTextBoxWeight.Light
         Me.txt_SpeIns.Lines = New String(-1) {}
-        Me.txt_SpeIns.Location = New System.Drawing.Point(183, 172)
-        Me.txt_SpeIns.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_SpeIns.Location = New System.Drawing.Point(122, 112)
         Me.txt_SpeIns.MaxLength = 32767
         Me.txt_SpeIns.Name = "txt_SpeIns"
         Me.txt_SpeIns.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1027,7 +974,7 @@ Partial Class ServiceOrder
         Me.txt_SpeIns.SelectionLength = 0
         Me.txt_SpeIns.SelectionStart = 0
         Me.txt_SpeIns.ShortcutsEnabled = True
-        Me.txt_SpeIns.Size = New System.Drawing.Size(418, 35)
+        Me.txt_SpeIns.Size = New System.Drawing.Size(279, 23)
         Me.txt_SpeIns.TabIndex = 21
         Me.txt_SpeIns.UseSelectable = True
         Me.txt_SpeIns.WaterMark = "Remarks or any special instruction"
@@ -1037,8 +984,7 @@ Partial Class ServiceOrder
         'MetroLabel14
         '
         Me.MetroLabel14.AutoSize = True
-        Me.MetroLabel14.Location = New System.Drawing.Point(68, 178)
-        Me.MetroLabel14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel14.Location = New System.Drawing.Point(45, 116)
         Me.MetroLabel14.Name = "MetroLabel14"
         Me.MetroLabel14.Size = New System.Drawing.Size(71, 19)
         Me.MetroLabel14.TabIndex = 65
@@ -1051,10 +997,9 @@ Partial Class ServiceOrder
         '
         '
         Me.txt_Weight.CustomButton.Image = Nothing
-        Me.txt_Weight.CustomButton.Location = New System.Drawing.Point(171, 2)
-        Me.txt_Weight.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Weight.CustomButton.Location = New System.Drawing.Point(77, 1)
         Me.txt_Weight.CustomButton.Name = ""
-        Me.txt_Weight.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Weight.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Weight.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Weight.CustomButton.TabIndex = 1
         Me.txt_Weight.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
@@ -1063,8 +1008,7 @@ Partial Class ServiceOrder
         Me.txt_Weight.FontSize = MetroFramework.MetroTextBoxSize.Medium
         Me.txt_Weight.FontWeight = MetroFramework.MetroTextBoxWeight.Light
         Me.txt_Weight.Lines = New String(-1) {}
-        Me.txt_Weight.Location = New System.Drawing.Point(460, 128)
-        Me.txt_Weight.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Weight.Location = New System.Drawing.Point(303, 83)
         Me.txt_Weight.MaxLength = 32767
         Me.txt_Weight.Name = "txt_Weight"
         Me.txt_Weight.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1074,7 +1018,7 @@ Partial Class ServiceOrder
         Me.txt_Weight.SelectionLength = 0
         Me.txt_Weight.SelectionStart = 0
         Me.txt_Weight.ShortcutsEnabled = True
-        Me.txt_Weight.Size = New System.Drawing.Size(148, 35)
+        Me.txt_Weight.Size = New System.Drawing.Size(99, 23)
         Me.txt_Weight.TabIndex = 20
         Me.txt_Weight.UseSelectable = True
         Me.txt_Weight.WaterMark = "Item weight (kg)"
@@ -1087,10 +1031,9 @@ Partial Class ServiceOrder
         '
         '
         Me.txt_DeclaredValue.CustomButton.Image = Nothing
-        Me.txt_DeclaredValue.CustomButton.Location = New System.Drawing.Point(207, 2)
-        Me.txt_DeclaredValue.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_DeclaredValue.CustomButton.Location = New System.Drawing.Point(93, 1)
         Me.txt_DeclaredValue.CustomButton.Name = ""
-        Me.txt_DeclaredValue.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_DeclaredValue.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_DeclaredValue.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_DeclaredValue.CustomButton.TabIndex = 1
         Me.txt_DeclaredValue.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
@@ -1099,8 +1042,7 @@ Partial Class ServiceOrder
         Me.txt_DeclaredValue.FontSize = MetroFramework.MetroTextBoxSize.Medium
         Me.txt_DeclaredValue.FontWeight = MetroFramework.MetroTextBoxWeight.Light
         Me.txt_DeclaredValue.Lines = New String(-1) {}
-        Me.txt_DeclaredValue.Location = New System.Drawing.Point(184, 128)
-        Me.txt_DeclaredValue.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_DeclaredValue.Location = New System.Drawing.Point(123, 83)
         Me.txt_DeclaredValue.MaxLength = 32767
         Me.txt_DeclaredValue.Name = "txt_DeclaredValue"
         Me.txt_DeclaredValue.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1110,7 +1052,7 @@ Partial Class ServiceOrder
         Me.txt_DeclaredValue.SelectionLength = 0
         Me.txt_DeclaredValue.SelectionStart = 0
         Me.txt_DeclaredValue.ShortcutsEnabled = True
-        Me.txt_DeclaredValue.Size = New System.Drawing.Size(172, 35)
+        Me.txt_DeclaredValue.Size = New System.Drawing.Size(115, 23)
         Me.txt_DeclaredValue.TabIndex = 19
         Me.txt_DeclaredValue.UseSelectable = True
         Me.txt_DeclaredValue.WaterMark = "Item amount"
@@ -1120,8 +1062,7 @@ Partial Class ServiceOrder
         'MetroLabel11
         '
         Me.MetroLabel11.AutoSize = True
-        Me.MetroLabel11.Location = New System.Drawing.Point(27, 134)
-        Me.MetroLabel11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel11.Location = New System.Drawing.Point(18, 87)
         Me.MetroLabel11.Name = "MetroLabel11"
         Me.MetroLabel11.Size = New System.Drawing.Size(98, 19)
         Me.MetroLabel11.TabIndex = 60
@@ -1134,7 +1075,6 @@ Partial Class ServiceOrder
         Me.MetroLabel10.FontWeight = MetroFramework.MetroLabelWeight.Regular
         Me.MetroLabel10.ForeColor = System.Drawing.Color.Gray
         Me.MetroLabel10.Location = New System.Drawing.Point(0, 0)
-        Me.MetroLabel10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel10.Name = "MetroLabel10"
         Me.MetroLabel10.Size = New System.Drawing.Size(105, 19)
         Me.MetroLabel10.TabIndex = 20
@@ -1144,8 +1084,7 @@ Partial Class ServiceOrder
         'MetroLabel13
         '
         Me.MetroLabel13.AutoSize = True
-        Me.MetroLabel13.Location = New System.Drawing.Point(116, 45)
-        Me.MetroLabel13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel13.Location = New System.Drawing.Point(77, 29)
         Me.MetroLabel13.Name = "MetroLabel13"
         Me.MetroLabel13.Size = New System.Drawing.Size(39, 19)
         Me.MetroLabel13.TabIndex = 55
@@ -1154,8 +1093,7 @@ Partial Class ServiceOrder
         'MetroLabel12
         '
         Me.MetroLabel12.AutoSize = True
-        Me.MetroLabel12.Location = New System.Drawing.Point(51, 89)
-        Me.MetroLabel12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel12.Location = New System.Drawing.Point(34, 58)
         Me.MetroLabel12.Name = "MetroLabel12"
         Me.MetroLabel12.Size = New System.Drawing.Size(82, 19)
         Me.MetroLabel12.TabIndex = 15
@@ -1167,18 +1105,16 @@ Partial Class ServiceOrder
         '
         '
         Me.txt_Commodity.CustomButton.Image = Nothing
-        Me.txt_Commodity.CustomButton.Location = New System.Drawing.Point(576, 2)
-        Me.txt_Commodity.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Commodity.CustomButton.Location = New System.Drawing.Point(257, 1)
         Me.txt_Commodity.CustomButton.Name = ""
-        Me.txt_Commodity.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Commodity.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Commodity.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Commodity.CustomButton.TabIndex = 1
         Me.txt_Commodity.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Commodity.CustomButton.UseSelectable = True
         Me.txt_Commodity.CustomButton.Visible = False
         Me.txt_Commodity.Lines = New String(-1) {}
-        Me.txt_Commodity.Location = New System.Drawing.Point(183, 83)
-        Me.txt_Commodity.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Commodity.Location = New System.Drawing.Point(122, 54)
         Me.txt_Commodity.MaxLength = 32767
         Me.txt_Commodity.Name = "txt_Commodity"
         Me.txt_Commodity.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1188,7 +1124,7 @@ Partial Class ServiceOrder
         Me.txt_Commodity.SelectionLength = 0
         Me.txt_Commodity.SelectionStart = 0
         Me.txt_Commodity.ShortcutsEnabled = True
-        Me.txt_Commodity.Size = New System.Drawing.Size(418, 35)
+        Me.txt_Commodity.Size = New System.Drawing.Size(279, 23)
         Me.txt_Commodity.TabIndex = 18
         Me.txt_Commodity.UseSelectable = True
         Me.txt_Commodity.WaterMark = "Item description"
@@ -1210,57 +1146,51 @@ Partial Class ServiceOrder
         Me.MetroPanel5.Dock = System.Windows.Forms.DockStyle.Top
         Me.MetroPanel5.HorizontalScrollbarBarColor = True
         Me.MetroPanel5.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel5.HorizontalScrollbarSize = 15
+        Me.MetroPanel5.HorizontalScrollbarSize = 10
         Me.MetroPanel5.Location = New System.Drawing.Point(0, 0)
-        Me.MetroPanel5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroPanel5.Name = "MetroPanel5"
-        Me.MetroPanel5.Size = New System.Drawing.Size(836, 213)
+        Me.MetroPanel5.Size = New System.Drawing.Size(554, 139)
         Me.MetroPanel5.TabIndex = 63
         Me.MetroPanel5.VerticalScrollbarBarColor = True
         Me.MetroPanel5.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel5.VerticalScrollbarSize = 15
+        Me.MetroPanel5.VerticalScrollbarSize = 10
         '
         'cbo_Freight
         '
         Me.cbo_Freight.FormattingEnabled = True
-        Me.cbo_Freight.Location = New System.Drawing.Point(183, 155)
-        Me.cbo_Freight.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Freight.Location = New System.Drawing.Point(122, 101)
         Me.cbo_Freight.Name = "cbo_Freight"
-        Me.cbo_Freight.Size = New System.Drawing.Size(416, 28)
+        Me.cbo_Freight.Size = New System.Drawing.Size(279, 21)
         Me.cbo_Freight.TabIndex = 15
         '
         'cbo_Pay
         '
         Me.cbo_Pay.FormattingEnabled = True
-        Me.cbo_Pay.Location = New System.Drawing.Point(183, 114)
-        Me.cbo_Pay.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Pay.Location = New System.Drawing.Point(122, 74)
         Me.cbo_Pay.Name = "cbo_Pay"
-        Me.cbo_Pay.Size = New System.Drawing.Size(416, 28)
+        Me.cbo_Pay.Size = New System.Drawing.Size(279, 21)
         Me.cbo_Pay.TabIndex = 14
         '
         'cbo_Service
         '
         Me.cbo_Service.FormattingEnabled = True
-        Me.cbo_Service.Location = New System.Drawing.Point(183, 72)
-        Me.cbo_Service.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Service.Location = New System.Drawing.Point(122, 47)
         Me.cbo_Service.Name = "cbo_Service"
-        Me.cbo_Service.Size = New System.Drawing.Size(416, 28)
+        Me.cbo_Service.Size = New System.Drawing.Size(279, 21)
         Me.cbo_Service.TabIndex = 13
         '
         'cbo_Loading
         '
         Me.cbo_Loading.FormattingEnabled = True
-        Me.cbo_Loading.Location = New System.Drawing.Point(184, 31)
-        Me.cbo_Loading.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Loading.Location = New System.Drawing.Point(123, 20)
         Me.cbo_Loading.Name = "cbo_Loading"
-        Me.cbo_Loading.Size = New System.Drawing.Size(416, 28)
+        Me.cbo_Loading.Size = New System.Drawing.Size(279, 21)
         Me.cbo_Loading.TabIndex = 12
         '
         'MetroLabel8
         '
         Me.MetroLabel8.AutoSize = True
-        Me.MetroLabel8.Location = New System.Drawing.Point(94, 158)
-        Me.MetroLabel8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel8.Location = New System.Drawing.Point(63, 103)
         Me.MetroLabel8.Name = "MetroLabel8"
         Me.MetroLabel8.Size = New System.Drawing.Size(53, 19)
         Me.MetroLabel8.TabIndex = 62
@@ -1273,7 +1203,6 @@ Partial Class ServiceOrder
         Me.MetroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Regular
         Me.MetroLabel9.ForeColor = System.Drawing.Color.Gray
         Me.MetroLabel9.Location = New System.Drawing.Point(0, 0)
-        Me.MetroLabel9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.MetroLabel9.Name = "MetroLabel9"
         Me.MetroLabel9.Size = New System.Drawing.Size(50, 19)
         Me.MetroLabel9.TabIndex = 20
@@ -1283,8 +1212,7 @@ Partial Class ServiceOrder
         'MetroLabel5
         '
         Me.MetroLabel5.AutoSize = True
-        Me.MetroLabel5.Location = New System.Drawing.Point(126, 117)
-        Me.MetroLabel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel5.Location = New System.Drawing.Point(84, 76)
         Me.MetroLabel5.Name = "MetroLabel5"
         Me.MetroLabel5.Size = New System.Drawing.Size(32, 19)
         Me.MetroLabel5.TabIndex = 60
@@ -1293,8 +1221,7 @@ Partial Class ServiceOrder
         'MetroLabel17
         '
         Me.MetroLabel17.AutoSize = True
-        Me.MetroLabel17.Location = New System.Drawing.Point(86, 34)
-        Me.MetroLabel17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel17.Location = New System.Drawing.Point(57, 22)
         Me.MetroLabel17.Name = "MetroLabel17"
         Me.MetroLabel17.Size = New System.Drawing.Size(59, 19)
         Me.MetroLabel17.TabIndex = 58
@@ -1303,8 +1230,7 @@ Partial Class ServiceOrder
         'MetroLabel6
         '
         Me.MetroLabel6.AutoSize = True
-        Me.MetroLabel6.Location = New System.Drawing.Point(93, 75)
-        Me.MetroLabel6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel6.Location = New System.Drawing.Point(62, 49)
         Me.MetroLabel6.Name = "MetroLabel6"
         Me.MetroLabel6.Size = New System.Drawing.Size(54, 19)
         Me.MetroLabel6.TabIndex = 43
@@ -1317,25 +1243,23 @@ Partial Class ServiceOrder
         Me.MetroPanel6.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.MetroPanel6.HorizontalScrollbarBarColor = True
         Me.MetroPanel6.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroPanel6.HorizontalScrollbarSize = 15
-        Me.MetroPanel6.Location = New System.Drawing.Point(30, 829)
-        Me.MetroPanel6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroPanel6.HorizontalScrollbarSize = 10
+        Me.MetroPanel6.Location = New System.Drawing.Point(20, 539)
         Me.MetroPanel6.Name = "MetroPanel6"
-        Me.MetroPanel6.Size = New System.Drawing.Size(1544, 57)
+        Me.MetroPanel6.Size = New System.Drawing.Size(1029, 37)
         Me.MetroPanel6.TabIndex = 65
         Me.MetroPanel6.VerticalScrollbarBarColor = True
         Me.MetroPanel6.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroPanel6.VerticalScrollbarSize = 15
+        Me.MetroPanel6.VerticalScrollbarSize = 10
         '
         'btn_Submit
         '
         Me.btn_Submit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_Submit.Dock = System.Windows.Forms.DockStyle.Right
         Me.btn_Submit.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_Submit.Location = New System.Drawing.Point(1224, 0)
-        Me.btn_Submit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_Submit.Location = New System.Drawing.Point(815, 0)
         Me.btn_Submit.Name = "btn_Submit"
-        Me.btn_Submit.Size = New System.Drawing.Size(160, 57)
+        Me.btn_Submit.Size = New System.Drawing.Size(107, 37)
         Me.btn_Submit.TabIndex = 22
         Me.btn_Submit.Text = "&Submit"
         Me.btn_Submit.Theme = MetroFramework.MetroThemeStyle.Dark
@@ -1346,10 +1270,9 @@ Partial Class ServiceOrder
         Me.btn_Cancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_Cancel.Dock = System.Windows.Forms.DockStyle.Right
         Me.btn_Cancel.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_Cancel.Location = New System.Drawing.Point(1384, 0)
-        Me.btn_Cancel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_Cancel.Location = New System.Drawing.Point(922, 0)
         Me.btn_Cancel.Name = "btn_Cancel"
-        Me.btn_Cancel.Size = New System.Drawing.Size(160, 57)
+        Me.btn_Cancel.Size = New System.Drawing.Size(107, 37)
         Me.btn_Cancel.TabIndex = 23
         Me.btn_Cancel.Text = "C&ancel"
         Me.btn_Cancel.UseSelectable = True
@@ -1364,18 +1287,16 @@ Partial Class ServiceOrder
         Me.txt_Search.CustomButton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.txt_Search.CustomButton.FlatAppearance.BorderSize = 10
         Me.txt_Search.CustomButton.Image = Nothing
-        Me.txt_Search.CustomButton.Location = New System.Drawing.Point(372, 2)
-        Me.txt_Search.CustomButton.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Search.CustomButton.Location = New System.Drawing.Point(166, 1)
         Me.txt_Search.CustomButton.Name = ""
-        Me.txt_Search.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Search.CustomButton.Size = New System.Drawing.Size(21, 21)
         Me.txt_Search.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Search.CustomButton.TabIndex = 1
         Me.txt_Search.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Search.CustomButton.UseSelectable = True
         Me.txt_Search.CustomButton.Visible = False
         Me.txt_Search.Lines = New String(-1) {}
-        Me.txt_Search.Location = New System.Drawing.Point(1292, 48)
-        Me.txt_Search.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Search.Location = New System.Drawing.Point(861, 31)
         Me.txt_Search.MaxLength = 32767
         Me.txt_Search.Name = "txt_Search"
         Me.txt_Search.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -1386,7 +1307,7 @@ Partial Class ServiceOrder
         Me.txt_Search.SelectionStart = 0
         Me.txt_Search.ShortcutsEnabled = True
         Me.txt_Search.ShowClearButton = True
-        Me.txt_Search.Size = New System.Drawing.Size(282, 35)
+        Me.txt_Search.Size = New System.Drawing.Size(188, 23)
         Me.txt_Search.TabIndex = 100
         Me.txt_Search.UseSelectable = True
         Me.txt_Search.WaterMark = "Search tracking here"
@@ -1395,19 +1316,17 @@ Partial Class ServiceOrder
         '
         'ServiceOrder
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1604, 917)
+        Me.ClientSize = New System.Drawing.Size(1069, 596)
         Me.Controls.Add(Me.txt_Search)
         Me.Controls.Add(Me.MetroPanel3)
         Me.Controls.Add(Me.MetroPanel6)
         Me.Controls.Add(Me.MetroPanel2)
         Me.Controls.Add(Me.cbo_Carrier)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "ServiceOrder"
-        Me.Padding = New System.Windows.Forms.Padding(30, 92, 30, 31)
         Me.Resizable = False
         Me.Style = MetroFramework.MetroColorStyle.Teal
         Me.Text = "Service Order"

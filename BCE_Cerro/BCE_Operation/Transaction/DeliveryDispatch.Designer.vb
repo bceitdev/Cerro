@@ -67,11 +67,10 @@ Partial Class DeliveryDispatch
         Me.mtc_Dispatch.Controls.Add(Me.tp_Personnel)
         Me.mtc_Dispatch.Controls.Add(Me.tp_Vehicle)
         Me.mtc_Dispatch.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.mtc_Dispatch.Location = New System.Drawing.Point(30, 92)
-        Me.mtc_Dispatch.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.mtc_Dispatch.Location = New System.Drawing.Point(20, 60)
         Me.mtc_Dispatch.Name = "mtc_Dispatch"
         Me.mtc_Dispatch.SelectedIndex = 0
-        Me.mtc_Dispatch.Size = New System.Drawing.Size(1544, 794)
+        Me.mtc_Dispatch.Size = New System.Drawing.Size(1029, 516)
         Me.mtc_Dispatch.Style = MetroFramework.MetroColorStyle.Teal
         Me.mtc_Dispatch.TabIndex = 67
         Me.mtc_Dispatch.UseSelectable = True
@@ -87,16 +86,15 @@ Partial Class DeliveryDispatch
         Me.tp_Shipment.Controls.Add(Me.MetroLabel7)
         Me.tp_Shipment.HorizontalScrollbarBarColor = True
         Me.tp_Shipment.HorizontalScrollbarHighlightOnWheel = False
-        Me.tp_Shipment.HorizontalScrollbarSize = 15
+        Me.tp_Shipment.HorizontalScrollbarSize = 10
         Me.tp_Shipment.Location = New System.Drawing.Point(4, 38)
-        Me.tp_Shipment.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tp_Shipment.Name = "tp_Shipment"
-        Me.tp_Shipment.Size = New System.Drawing.Size(1536, 752)
+        Me.tp_Shipment.Size = New System.Drawing.Size(1021, 474)
         Me.tp_Shipment.TabIndex = 2
         Me.tp_Shipment.Text = "Shipment"
         Me.tp_Shipment.VerticalScrollbarBarColor = True
         Me.tp_Shipment.VerticalScrollbarHighlightOnWheel = False
-        Me.tp_Shipment.VerticalScrollbarSize = 15
+        Me.tp_Shipment.VerticalScrollbarSize = 10
         '
         'dgv_DelDis
         '
@@ -132,8 +130,7 @@ Partial Class DeliveryDispatch
         Me.dgv_DelDis.EnableHeadersVisualStyles = False
         Me.dgv_DelDis.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.dgv_DelDis.GridColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.dgv_DelDis.Location = New System.Drawing.Point(0, 133)
-        Me.dgv_DelDis.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.dgv_DelDis.Location = New System.Drawing.Point(0, 71)
         Me.dgv_DelDis.Name = "dgv_DelDis"
         Me.dgv_DelDis.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -147,7 +144,7 @@ Partial Class DeliveryDispatch
         Me.dgv_DelDis.RowHeadersWidth = 62
         Me.dgv_DelDis.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.dgv_DelDis.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_DelDis.Size = New System.Drawing.Size(1534, 569)
+        Me.dgv_DelDis.Size = New System.Drawing.Size(1019, 370)
         Me.dgv_DelDis.TabIndex = 97
         '
         'Column1
@@ -162,10 +159,9 @@ Partial Class DeliveryDispatch
         Me.btn_ShipNext.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_ShipNext.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.btn_ShipNext.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_ShipNext.Location = New System.Drawing.Point(0, 702)
-        Me.btn_ShipNext.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_ShipNext.Location = New System.Drawing.Point(0, 441)
         Me.btn_ShipNext.Name = "btn_ShipNext"
-        Me.btn_ShipNext.Size = New System.Drawing.Size(1534, 48)
+        Me.btn_ShipNext.Size = New System.Drawing.Size(1019, 31)
         Me.btn_ShipNext.TabIndex = 39
         Me.btn_ShipNext.Text = "Next"
         Me.btn_ShipNext.Theme = MetroFramework.MetroThemeStyle.Dark
@@ -176,28 +172,25 @@ Partial Class DeliveryDispatch
         Me.cbo_Carrier.FontSize = MetroFramework.MetroComboBoxSize.Small
         Me.cbo_Carrier.FormattingEnabled = True
         Me.cbo_Carrier.ItemHeight = 19
-        Me.cbo_Carrier.Location = New System.Drawing.Point(279, 49)
-        Me.cbo_Carrier.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_Carrier.Location = New System.Drawing.Point(186, 32)
         Me.cbo_Carrier.Name = "cbo_Carrier"
-        Me.cbo_Carrier.Size = New System.Drawing.Size(250, 25)
+        Me.cbo_Carrier.Size = New System.Drawing.Size(168, 25)
         Me.cbo_Carrier.TabIndex = 95
         Me.cbo_Carrier.UseSelectable = True
         '
         'dtp_Shipdate
         '
         Me.dtp_Shipdate.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtp_Shipdate.Location = New System.Drawing.Point(20, 49)
-        Me.dtp_Shipdate.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.dtp_Shipdate.Location = New System.Drawing.Point(13, 32)
         Me.dtp_Shipdate.MinimumSize = New System.Drawing.Size(4, 29)
         Me.dtp_Shipdate.Name = "dtp_Shipdate"
-        Me.dtp_Shipdate.Size = New System.Drawing.Size(248, 29)
+        Me.dtp_Shipdate.Size = New System.Drawing.Size(167, 29)
         Me.dtp_Shipdate.TabIndex = 93
         '
         'MetroLabel1
         '
         Me.MetroLabel1.AutoSize = True
-        Me.MetroLabel1.Location = New System.Drawing.Point(279, 15)
-        Me.MetroLabel1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel1.Location = New System.Drawing.Point(186, 10)
         Me.MetroLabel1.Name = "MetroLabel1"
         Me.MetroLabel1.Size = New System.Drawing.Size(54, 19)
         Me.MetroLabel1.TabIndex = 94
@@ -206,8 +199,7 @@ Partial Class DeliveryDispatch
         'MetroLabel7
         '
         Me.MetroLabel7.AutoSize = True
-        Me.MetroLabel7.Location = New System.Drawing.Point(20, 15)
-        Me.MetroLabel7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel7.Location = New System.Drawing.Point(13, 10)
         Me.MetroLabel7.Name = "MetroLabel7"
         Me.MetroLabel7.Size = New System.Drawing.Size(68, 19)
         Me.MetroLabel7.TabIndex = 96
@@ -222,16 +214,15 @@ Partial Class DeliveryDispatch
         Me.tp_Personnel.Controls.Add(Me.txt_Driver)
         Me.tp_Personnel.HorizontalScrollbarBarColor = True
         Me.tp_Personnel.HorizontalScrollbarHighlightOnWheel = False
-        Me.tp_Personnel.HorizontalScrollbarSize = 15
+        Me.tp_Personnel.HorizontalScrollbarSize = 10
         Me.tp_Personnel.Location = New System.Drawing.Point(4, 38)
-        Me.tp_Personnel.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tp_Personnel.Name = "tp_Personnel"
-        Me.tp_Personnel.Size = New System.Drawing.Size(1536, 752)
+        Me.tp_Personnel.Size = New System.Drawing.Size(1021, 474)
         Me.tp_Personnel.TabIndex = 3
         Me.tp_Personnel.Text = "Personnel"
         Me.tp_Personnel.VerticalScrollbarBarColor = True
         Me.tp_Personnel.VerticalScrollbarHighlightOnWheel = False
-        Me.tp_Personnel.VerticalScrollbarSize = 15
+        Me.tp_Personnel.VerticalScrollbarSize = 10
         '
         'clb_Driver
         '
@@ -239,10 +230,9 @@ Partial Class DeliveryDispatch
         Me.clb_Driver.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.clb_Driver.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.clb_Driver.HorizontalScrollbar = True
-        Me.clb_Driver.Location = New System.Drawing.Point(0, 190)
-        Me.clb_Driver.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.clb_Driver.Location = New System.Drawing.Point(0, 196)
         Me.clb_Driver.Name = "clb_Driver"
-        Me.clb_Driver.Size = New System.Drawing.Size(1534, 464)
+        Me.clb_Driver.Size = New System.Drawing.Size(1019, 214)
         Me.clb_Driver.TabIndex = 0
         '
         'btn_PerNext
@@ -250,10 +240,9 @@ Partial Class DeliveryDispatch
         Me.btn_PerNext.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_PerNext.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.btn_PerNext.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_PerNext.Location = New System.Drawing.Point(0, 654)
-        Me.btn_PerNext.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_PerNext.Location = New System.Drawing.Point(0, 410)
         Me.btn_PerNext.Name = "btn_PerNext"
-        Me.btn_PerNext.Size = New System.Drawing.Size(1534, 48)
+        Me.btn_PerNext.Size = New System.Drawing.Size(1019, 31)
         Me.btn_PerNext.TabIndex = 39
         Me.btn_PerNext.Text = "Next"
         Me.btn_PerNext.Theme = MetroFramework.MetroThemeStyle.Dark
@@ -264,10 +253,9 @@ Partial Class DeliveryDispatch
         Me.btn_PerBack.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_PerBack.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.btn_PerBack.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_PerBack.Location = New System.Drawing.Point(0, 702)
-        Me.btn_PerBack.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_PerBack.Location = New System.Drawing.Point(0, 441)
         Me.btn_PerBack.Name = "btn_PerBack"
-        Me.btn_PerBack.Size = New System.Drawing.Size(1534, 48)
+        Me.btn_PerBack.Size = New System.Drawing.Size(1019, 31)
         Me.btn_PerBack.TabIndex = 41
         Me.btn_PerBack.Text = "Back"
         Me.btn_PerBack.UseSelectable = True
@@ -280,18 +268,16 @@ Partial Class DeliveryDispatch
         '
         '
         Me.txt_Driver.CustomButton.Image = Nothing
-        Me.txt_Driver.CustomButton.Location = New System.Drawing.Point(2172, 2)
-        Me.txt_Driver.CustomButton.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txt_Driver.CustomButton.Location = New System.Drawing.Point(644, 1)
         Me.txt_Driver.CustomButton.Name = ""
-        Me.txt_Driver.CustomButton.Size = New System.Drawing.Size(50, 51)
+        Me.txt_Driver.CustomButton.Size = New System.Drawing.Size(14, 14)
         Me.txt_Driver.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.txt_Driver.CustomButton.TabIndex = 1
         Me.txt_Driver.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txt_Driver.CustomButton.UseSelectable = True
         Me.txt_Driver.CustomButton.Visible = False
         Me.txt_Driver.Lines = New String(-1) {}
-        Me.txt_Driver.Location = New System.Drawing.Point(24, 31)
-        Me.txt_Driver.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txt_Driver.Location = New System.Drawing.Point(16, 20)
         Me.txt_Driver.MaxLength = 32767
         Me.txt_Driver.Name = "txt_Driver"
         Me.txt_Driver.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -301,7 +287,7 @@ Partial Class DeliveryDispatch
         Me.txt_Driver.SelectionLength = 0
         Me.txt_Driver.SelectionStart = 0
         Me.txt_Driver.ShortcutsEnabled = True
-        Me.txt_Driver.Size = New System.Drawing.Size(1482, 35)
+        Me.txt_Driver.Size = New System.Drawing.Size(988, 23)
         Me.txt_Driver.TabIndex = 69
         Me.txt_Driver.UseSelectable = True
         Me.txt_Driver.WaterMark = "Driver's Name"
@@ -326,26 +312,24 @@ Partial Class DeliveryDispatch
         Me.tp_Vehicle.Controls.Add(Me.MetroLabel4)
         Me.tp_Vehicle.HorizontalScrollbarBarColor = True
         Me.tp_Vehicle.HorizontalScrollbarHighlightOnWheel = False
-        Me.tp_Vehicle.HorizontalScrollbarSize = 15
+        Me.tp_Vehicle.HorizontalScrollbarSize = 10
         Me.tp_Vehicle.Location = New System.Drawing.Point(4, 38)
-        Me.tp_Vehicle.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tp_Vehicle.Name = "tp_Vehicle"
-        Me.tp_Vehicle.Size = New System.Drawing.Size(1536, 752)
+        Me.tp_Vehicle.Size = New System.Drawing.Size(1021, 474)
         Me.tp_Vehicle.TabIndex = 4
         Me.tp_Vehicle.Text = "Vehicle"
         Me.tp_Vehicle.VerticalScrollbarBarColor = True
         Me.tp_Vehicle.VerticalScrollbarHighlightOnWheel = False
-        Me.tp_Vehicle.VerticalScrollbarSize = 15
+        Me.tp_Vehicle.VerticalScrollbarSize = 10
         '
         'btn_VehSubmit
         '
         Me.btn_VehSubmit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_VehSubmit.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.btn_VehSubmit.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_VehSubmit.Location = New System.Drawing.Point(0, 654)
-        Me.btn_VehSubmit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_VehSubmit.Location = New System.Drawing.Point(0, 410)
         Me.btn_VehSubmit.Name = "btn_VehSubmit"
-        Me.btn_VehSubmit.Size = New System.Drawing.Size(1534, 48)
+        Me.btn_VehSubmit.Size = New System.Drawing.Size(1019, 31)
         Me.btn_VehSubmit.TabIndex = 39
         Me.btn_VehSubmit.Text = "Submit"
         Me.btn_VehSubmit.Theme = MetroFramework.MetroThemeStyle.Dark
@@ -356,10 +340,9 @@ Partial Class DeliveryDispatch
         Me.btn_VehBack.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_VehBack.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.btn_VehBack.FontWeight = MetroFramework.MetroButtonWeight.Regular
-        Me.btn_VehBack.Location = New System.Drawing.Point(0, 702)
-        Me.btn_VehBack.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btn_VehBack.Location = New System.Drawing.Point(0, 441)
         Me.btn_VehBack.Name = "btn_VehBack"
-        Me.btn_VehBack.Size = New System.Drawing.Size(1534, 48)
+        Me.btn_VehBack.Size = New System.Drawing.Size(1019, 31)
         Me.btn_VehBack.TabIndex = 40
         Me.btn_VehBack.Text = "Back"
         Me.btn_VehBack.UseSelectable = True
@@ -368,10 +351,9 @@ Partial Class DeliveryDispatch
         '
         Me.mt_Motor.ActiveControl = Nothing
         Me.mt_Motor.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.mt_Motor.Location = New System.Drawing.Point(22, 20)
-        Me.mt_Motor.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.mt_Motor.Location = New System.Drawing.Point(15, 13)
         Me.mt_Motor.Name = "mt_Motor"
-        Me.mt_Motor.Size = New System.Drawing.Size(170, 157)
+        Me.mt_Motor.Size = New System.Drawing.Size(113, 102)
         Me.mt_Motor.TabIndex = 78
         Me.mt_Motor.Text = "Motorcycle"
         Me.mt_Motor.UseSelectable = True
@@ -380,10 +362,9 @@ Partial Class DeliveryDispatch
         '
         Me.mt_ClosedVan.ActiveControl = Nothing
         Me.mt_ClosedVan.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.mt_ClosedVan.Location = New System.Drawing.Point(380, 20)
-        Me.mt_ClosedVan.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.mt_ClosedVan.Location = New System.Drawing.Point(253, 13)
         Me.mt_ClosedVan.Name = "mt_ClosedVan"
-        Me.mt_ClosedVan.Size = New System.Drawing.Size(170, 157)
+        Me.mt_ClosedVan.Size = New System.Drawing.Size(113, 102)
         Me.mt_ClosedVan.TabIndex = 81
         Me.mt_ClosedVan.TileImage = CType(resources.GetObject("mt_ClosedVan.TileImage"), System.Drawing.Image)
         Me.mt_ClosedVan.TileImageAlign = System.Drawing.ContentAlignment.TopCenter
@@ -393,8 +374,7 @@ Partial Class DeliveryDispatch
         'lbl_PlateNo
         '
         Me.lbl_PlateNo.AutoSize = True
-        Me.lbl_PlateNo.Location = New System.Drawing.Point(130, 222)
-        Me.lbl_PlateNo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_PlateNo.Location = New System.Drawing.Point(87, 144)
         Me.lbl_PlateNo.Name = "lbl_PlateNo"
         Me.lbl_PlateNo.Size = New System.Drawing.Size(0, 0)
         Me.lbl_PlateNo.TabIndex = 74
@@ -403,10 +383,9 @@ Partial Class DeliveryDispatch
         '
         Me.mt_Van.ActiveControl = Nothing
         Me.mt_Van.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.mt_Van.Location = New System.Drawing.Point(201, 20)
-        Me.mt_Van.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.mt_Van.Location = New System.Drawing.Point(134, 13)
         Me.mt_Van.Name = "mt_Van"
-        Me.mt_Van.Size = New System.Drawing.Size(170, 157)
+        Me.mt_Van.Size = New System.Drawing.Size(113, 102)
         Me.mt_Van.TabIndex = 80
         Me.mt_Van.TileImage = CType(resources.GetObject("mt_Van.TileImage"), System.Drawing.Image)
         Me.mt_Van.TileImageAlign = System.Drawing.ContentAlignment.TopCenter
@@ -416,8 +395,7 @@ Partial Class DeliveryDispatch
         'lbl_Length
         '
         Me.lbl_Length.AutoSize = True
-        Me.lbl_Length.Location = New System.Drawing.Point(130, 266)
-        Me.lbl_Length.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_Length.Location = New System.Drawing.Point(87, 173)
         Me.lbl_Length.Name = "lbl_Length"
         Me.lbl_Length.Size = New System.Drawing.Size(0, 0)
         Me.lbl_Length.TabIndex = 75
@@ -425,8 +403,7 @@ Partial Class DeliveryDispatch
         'MetroLabel2
         '
         Me.MetroLabel2.AutoSize = True
-        Me.MetroLabel2.Location = New System.Drawing.Point(22, 222)
-        Me.MetroLabel2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel2.Location = New System.Drawing.Point(15, 144)
         Me.MetroLabel2.Name = "MetroLabel2"
         Me.MetroLabel2.Size = New System.Drawing.Size(66, 19)
         Me.MetroLabel2.TabIndex = 70
@@ -435,8 +412,7 @@ Partial Class DeliveryDispatch
         'MetroLabel5
         '
         Me.MetroLabel5.AutoSize = True
-        Me.MetroLabel5.Location = New System.Drawing.Point(22, 354)
-        Me.MetroLabel5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel5.Location = New System.Drawing.Point(15, 230)
         Me.MetroLabel5.Name = "MetroLabel5"
         Me.MetroLabel5.Size = New System.Drawing.Size(50, 19)
         Me.MetroLabel5.TabIndex = 73
@@ -445,8 +421,7 @@ Partial Class DeliveryDispatch
         'MetroLabel3
         '
         Me.MetroLabel3.AutoSize = True
-        Me.MetroLabel3.Location = New System.Drawing.Point(22, 266)
-        Me.MetroLabel3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel3.Location = New System.Drawing.Point(15, 173)
         Me.MetroLabel3.Name = "MetroLabel3"
         Me.MetroLabel3.Size = New System.Drawing.Size(51, 19)
         Me.MetroLabel3.TabIndex = 71
@@ -455,8 +430,7 @@ Partial Class DeliveryDispatch
         'lbl_Width
         '
         Me.lbl_Width.AutoSize = True
-        Me.lbl_Width.Location = New System.Drawing.Point(130, 311)
-        Me.lbl_Width.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_Width.Location = New System.Drawing.Point(87, 202)
         Me.lbl_Width.Name = "lbl_Width"
         Me.lbl_Width.Size = New System.Drawing.Size(0, 0)
         Me.lbl_Width.TabIndex = 76
@@ -464,8 +438,7 @@ Partial Class DeliveryDispatch
         'lbl_Height
         '
         Me.lbl_Height.AutoSize = True
-        Me.lbl_Height.Location = New System.Drawing.Point(130, 354)
-        Me.lbl_Height.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_Height.Location = New System.Drawing.Point(87, 230)
         Me.lbl_Height.Name = "lbl_Height"
         Me.lbl_Height.Size = New System.Drawing.Size(0, 0)
         Me.lbl_Height.TabIndex = 77
@@ -473,8 +446,7 @@ Partial Class DeliveryDispatch
         'MetroLabel4
         '
         Me.MetroLabel4.AutoSize = True
-        Me.MetroLabel4.Location = New System.Drawing.Point(22, 311)
-        Me.MetroLabel4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.MetroLabel4.Location = New System.Drawing.Point(15, 202)
         Me.MetroLabel4.Name = "MetroLabel4"
         Me.MetroLabel4.Size = New System.Drawing.Size(47, 19)
         Me.MetroLabel4.TabIndex = 72
@@ -482,15 +454,13 @@ Partial Class DeliveryDispatch
         '
         'DeliveryDispatch
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1604, 917)
+        Me.ClientSize = New System.Drawing.Size(1069, 596)
         Me.Controls.Add(Me.mtc_Dispatch)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "DeliveryDispatch"
-        Me.Padding = New System.Windows.Forms.Padding(30, 92, 30, 31)
         Me.Resizable = False
         Me.Style = MetroFramework.MetroColorStyle.Teal
         Me.Text = "Delivery Dispatch"

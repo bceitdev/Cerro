@@ -91,11 +91,11 @@ Partial Class BCEParent
         Me.tp_CS.Controls.Add(Me.btn_CSDashboard)
         Me.tp_CS.HorizontalScrollbarBarColor = True
         Me.tp_CS.HorizontalScrollbarHighlightOnWheel = False
-        Me.tp_CS.HorizontalScrollbarSize = 23
+        Me.tp_CS.HorizontalScrollbarSize = 15
         Me.tp_CS.Location = New System.Drawing.Point(4, 106)
-        Me.tp_CS.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.tp_CS.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tp_CS.Name = "tp_CS"
-        Me.tp_CS.Size = New System.Drawing.Size(236, 848)
+        Me.tp_CS.Size = New System.Drawing.Size(155, 513)
         Me.tp_CS.Style = MetroFramework.MetroColorStyle.Blue
         Me.tp_CS.TabIndex = 0
         Me.tp_CS.Text = "Customer Service"
@@ -103,7 +103,7 @@ Partial Class BCEParent
         Me.tp_CS.UseVisualStyleBackColor = True
         Me.tp_CS.VerticalScrollbarBarColor = True
         Me.tp_CS.VerticalScrollbarHighlightOnWheel = False
-        Me.tp_CS.VerticalScrollbarSize = 22
+        Me.tp_CS.VerticalScrollbarSize = 15
         '
         'btn_ReportCS
         '
@@ -117,10 +117,10 @@ Partial Class BCEParent
         Me.btn_ReportCS.ForeColor = System.Drawing.Color.Black
         Me.btn_ReportCS.Image = CType(resources.GetObject("btn_ReportCS.Image"), System.Drawing.Image)
         Me.btn_ReportCS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_ReportCS.Location = New System.Drawing.Point(0, 332)
-        Me.btn_ReportCS.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_ReportCS.Location = New System.Drawing.Point(0, 216)
+        Me.btn_ReportCS.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_ReportCS.Name = "btn_ReportCS"
-        Me.btn_ReportCS.Size = New System.Drawing.Size(236, 83)
+        Me.btn_ReportCS.Size = New System.Drawing.Size(155, 54)
         Me.btn_ReportCS.TabIndex = 94
         Me.btn_ReportCS.Text = "             Report"
         Me.btn_ReportCS.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -138,10 +138,10 @@ Partial Class BCEParent
         Me.btn_CSReport.ForeColor = System.Drawing.Color.Black
         Me.btn_CSReport.Image = CType(resources.GetObject("btn_CSReport.Image"), System.Drawing.Image)
         Me.btn_CSReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_CSReport.Location = New System.Drawing.Point(0, 249)
-        Me.btn_CSReport.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_CSReport.Location = New System.Drawing.Point(0, 162)
+        Me.btn_CSReport.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_CSReport.Name = "btn_CSReport"
-        Me.btn_CSReport.Size = New System.Drawing.Size(236, 83)
+        Me.btn_CSReport.Size = New System.Drawing.Size(155, 54)
         Me.btn_CSReport.TabIndex = 93
         Me.btn_CSReport.Text = "             KPI"
         Me.btn_CSReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -160,10 +160,10 @@ Partial Class BCEParent
         Me.btn_Delivery.ForeColor = System.Drawing.Color.Black
         Me.btn_Delivery.Image = CType(resources.GetObject("btn_Delivery.Image"), System.Drawing.Image)
         Me.btn_Delivery.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Delivery.Location = New System.Drawing.Point(0, 166)
-        Me.btn_Delivery.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Delivery.Location = New System.Drawing.Point(0, 108)
+        Me.btn_Delivery.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Delivery.Name = "btn_Delivery"
-        Me.btn_Delivery.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Delivery.Size = New System.Drawing.Size(155, 54)
         Me.btn_Delivery.TabIndex = 92
         Me.btn_Delivery.Text = "             Delivery"
         Me.btn_Delivery.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -177,15 +177,14 @@ Partial Class BCEParent
         Me.pnl_Pickup.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnl_Pickup.HorizontalScrollbarBarColor = True
         Me.pnl_Pickup.HorizontalScrollbarHighlightOnWheel = False
-        Me.pnl_Pickup.HorizontalScrollbarSize = 15
-        Me.pnl_Pickup.Location = New System.Drawing.Point(0, 83)
-        Me.pnl_Pickup.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.pnl_Pickup.HorizontalScrollbarSize = 10
+        Me.pnl_Pickup.Location = New System.Drawing.Point(0, 54)
         Me.pnl_Pickup.Name = "pnl_Pickup"
-        Me.pnl_Pickup.Size = New System.Drawing.Size(236, 83)
+        Me.pnl_Pickup.Size = New System.Drawing.Size(155, 54)
         Me.pnl_Pickup.TabIndex = 13
         Me.pnl_Pickup.VerticalScrollbarBarColor = True
         Me.pnl_Pickup.VerticalScrollbarHighlightOnWheel = False
-        Me.pnl_Pickup.VerticalScrollbarSize = 15
+        Me.pnl_Pickup.VerticalScrollbarSize = 10
         '
         'btn_Pickup
         '
@@ -200,9 +199,9 @@ Partial Class BCEParent
         Me.btn_Pickup.Image = CType(resources.GetObject("btn_Pickup.Image"), System.Drawing.Image)
         Me.btn_Pickup.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_Pickup.Location = New System.Drawing.Point(0, 0)
-        Me.btn_Pickup.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Pickup.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Pickup.Name = "btn_Pickup"
-        Me.btn_Pickup.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Pickup.Size = New System.Drawing.Size(155, 54)
         Me.btn_Pickup.TabIndex = 91
         Me.btn_Pickup.Text = "             Pickup"
         Me.btn_Pickup.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -219,10 +218,10 @@ Partial Class BCEParent
         Me.btn_CS_PickUpList.ForeColor = System.Drawing.Color.Black
         Me.btn_CS_PickUpList.Image = CType(resources.GetObject("btn_CS_PickUpList.Image"), System.Drawing.Image)
         Me.btn_CS_PickUpList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_CS_PickUpList.Location = New System.Drawing.Point(54, 166)
-        Me.btn_CS_PickUpList.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_CS_PickUpList.Location = New System.Drawing.Point(36, 108)
+        Me.btn_CS_PickUpList.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_CS_PickUpList.Name = "btn_CS_PickUpList"
-        Me.btn_CS_PickUpList.Size = New System.Drawing.Size(178, 83)
+        Me.btn_CS_PickUpList.Size = New System.Drawing.Size(119, 54)
         Me.btn_CS_PickUpList.TabIndex = 89
         Me.btn_CS_PickUpList.Text = "             List"
         Me.btn_CS_PickUpList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -239,10 +238,10 @@ Partial Class BCEParent
         Me.btn_PickupSched.ForeColor = System.Drawing.Color.Black
         Me.btn_PickupSched.Image = CType(resources.GetObject("btn_PickupSched.Image"), System.Drawing.Image)
         Me.btn_PickupSched.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_PickupSched.Location = New System.Drawing.Point(54, 83)
-        Me.btn_PickupSched.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_PickupSched.Location = New System.Drawing.Point(36, 54)
+        Me.btn_PickupSched.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_PickupSched.Name = "btn_PickupSched"
-        Me.btn_PickupSched.Size = New System.Drawing.Size(178, 83)
+        Me.btn_PickupSched.Size = New System.Drawing.Size(119, 54)
         Me.btn_PickupSched.TabIndex = 88
         Me.btn_PickupSched.Text = "             Schedule"
         Me.btn_PickupSched.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -257,7 +256,7 @@ Partial Class BCEParent
         Me.dgv_Dummy.ColumnHeadersHeight = 34
         DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle1.Format = "d"
         DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
@@ -266,13 +265,13 @@ Partial Class BCEParent
         Me.dgv_Dummy.DefaultCellStyle = DataGridViewCellStyle1
         Me.dgv_Dummy.EnableHeadersVisualStyles = False
         Me.dgv_Dummy.GridColor = System.Drawing.Color.DimGray
-        Me.dgv_Dummy.Location = New System.Drawing.Point(6, 1328)
-        Me.dgv_Dummy.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.dgv_Dummy.Location = New System.Drawing.Point(4, 863)
+        Me.dgv_Dummy.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.dgv_Dummy.Name = "dgv_Dummy"
         Me.dgv_Dummy.ReadOnly = True
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
@@ -284,7 +283,7 @@ Partial Class BCEParent
         DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
         Me.dgv_Dummy.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.dgv_Dummy.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_Dummy.Size = New System.Drawing.Size(68, 69)
+        Me.dgv_Dummy.Size = New System.Drawing.Size(45, 45)
         Me.dgv_Dummy.TabIndex = 76
         Me.dgv_Dummy.Visible = False
         '
@@ -301,9 +300,9 @@ Partial Class BCEParent
         Me.btn_CSDashboard.Image = CType(resources.GetObject("btn_CSDashboard.Image"), System.Drawing.Image)
         Me.btn_CSDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_CSDashboard.Location = New System.Drawing.Point(0, 0)
-        Me.btn_CSDashboard.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_CSDashboard.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_CSDashboard.Name = "btn_CSDashboard"
-        Me.btn_CSDashboard.Size = New System.Drawing.Size(236, 83)
+        Me.btn_CSDashboard.Size = New System.Drawing.Size(155, 54)
         Me.btn_CSDashboard.TabIndex = 91
         Me.btn_CSDashboard.Text = "             Dashboard"
         Me.btn_CSDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -322,17 +321,17 @@ Partial Class BCEParent
         Me.tp_Ops.HorizontalScrollbar = True
         Me.tp_Ops.HorizontalScrollbarBarColor = True
         Me.tp_Ops.HorizontalScrollbarHighlightOnWheel = False
-        Me.tp_Ops.HorizontalScrollbarSize = 23
-        Me.tp_Ops.Location = New System.Drawing.Point(4, 72)
-        Me.tp_Ops.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.tp_Ops.HorizontalScrollbarSize = 15
+        Me.tp_Ops.Location = New System.Drawing.Point(4, 106)
+        Me.tp_Ops.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tp_Ops.Name = "tp_Ops"
-        Me.tp_Ops.Size = New System.Drawing.Size(236, 883)
+        Me.tp_Ops.Size = New System.Drawing.Size(155, 513)
         Me.tp_Ops.TabIndex = 1
         Me.tp_Ops.Text = "Operation"
         Me.tp_Ops.VerticalScrollbar = True
         Me.tp_Ops.VerticalScrollbarBarColor = True
         Me.tp_Ops.VerticalScrollbarHighlightOnWheel = False
-        Me.tp_Ops.VerticalScrollbarSize = 22
+        Me.tp_Ops.VerticalScrollbarSize = 15
         '
         'btn_ReportOps
         '
@@ -346,10 +345,10 @@ Partial Class BCEParent
         Me.btn_ReportOps.ForeColor = System.Drawing.Color.Black
         Me.btn_ReportOps.Image = CType(resources.GetObject("btn_ReportOps.Image"), System.Drawing.Image)
         Me.btn_ReportOps.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_ReportOps.Location = New System.Drawing.Point(0, 498)
-        Me.btn_ReportOps.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_ReportOps.Location = New System.Drawing.Point(0, 324)
+        Me.btn_ReportOps.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_ReportOps.Name = "btn_ReportOps"
-        Me.btn_ReportOps.Size = New System.Drawing.Size(236, 83)
+        Me.btn_ReportOps.Size = New System.Drawing.Size(155, 54)
         Me.btn_ReportOps.TabIndex = 95
         Me.btn_ReportOps.Text = "             Report"
         Me.btn_ReportOps.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -367,10 +366,10 @@ Partial Class BCEParent
         Me.btn_TrackingList.ForeColor = System.Drawing.Color.Black
         Me.btn_TrackingList.Image = CType(resources.GetObject("btn_TrackingList.Image"), System.Drawing.Image)
         Me.btn_TrackingList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_TrackingList.Location = New System.Drawing.Point(0, 415)
-        Me.btn_TrackingList.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_TrackingList.Location = New System.Drawing.Point(0, 270)
+        Me.btn_TrackingList.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_TrackingList.Name = "btn_TrackingList"
-        Me.btn_TrackingList.Size = New System.Drawing.Size(236, 83)
+        Me.btn_TrackingList.Size = New System.Drawing.Size(155, 54)
         Me.btn_TrackingList.TabIndex = 93
         Me.btn_TrackingList.Text = "             Tracking List"
         Me.btn_TrackingList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -387,15 +386,14 @@ Partial Class BCEParent
         Me.pnl_Shipment.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnl_Shipment.HorizontalScrollbarBarColor = True
         Me.pnl_Shipment.HorizontalScrollbarHighlightOnWheel = False
-        Me.pnl_Shipment.HorizontalScrollbarSize = 15
-        Me.pnl_Shipment.Location = New System.Drawing.Point(0, 332)
-        Me.pnl_Shipment.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.pnl_Shipment.HorizontalScrollbarSize = 10
+        Me.pnl_Shipment.Location = New System.Drawing.Point(0, 216)
         Me.pnl_Shipment.Name = "pnl_Shipment"
-        Me.pnl_Shipment.Size = New System.Drawing.Size(236, 83)
+        Me.pnl_Shipment.Size = New System.Drawing.Size(155, 54)
         Me.pnl_Shipment.TabIndex = 13
         Me.pnl_Shipment.VerticalScrollbarBarColor = True
         Me.pnl_Shipment.VerticalScrollbarHighlightOnWheel = False
-        Me.pnl_Shipment.VerticalScrollbarSize = 15
+        Me.pnl_Shipment.VerticalScrollbarSize = 10
         '
         'btn_Status
         '
@@ -408,10 +406,10 @@ Partial Class BCEParent
         Me.btn_Status.ForeColor = System.Drawing.Color.Black
         Me.btn_Status.Image = CType(resources.GetObject("btn_Status.Image"), System.Drawing.Image)
         Me.btn_Status.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Status.Location = New System.Drawing.Point(50, 415)
-        Me.btn_Status.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Status.Location = New System.Drawing.Point(33, 270)
+        Me.btn_Status.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Status.Name = "btn_Status"
-        Me.btn_Status.Size = New System.Drawing.Size(189, 83)
+        Me.btn_Status.Size = New System.Drawing.Size(126, 54)
         Me.btn_Status.TabIndex = 97
         Me.btn_Status.Text = "             Status"
         Me.btn_Status.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -428,10 +426,10 @@ Partial Class BCEParent
         Me.btn_Dispatch.ForeColor = System.Drawing.Color.Black
         Me.btn_Dispatch.Image = CType(resources.GetObject("btn_Dispatch.Image"), System.Drawing.Image)
         Me.btn_Dispatch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Dispatch.Location = New System.Drawing.Point(50, 332)
-        Me.btn_Dispatch.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Dispatch.Location = New System.Drawing.Point(33, 216)
+        Me.btn_Dispatch.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Dispatch.Name = "btn_Dispatch"
-        Me.btn_Dispatch.Size = New System.Drawing.Size(189, 83)
+        Me.btn_Dispatch.Size = New System.Drawing.Size(126, 54)
         Me.btn_Dispatch.TabIndex = 96
         Me.btn_Dispatch.Text = "             Dispatch"
         Me.btn_Dispatch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -448,10 +446,10 @@ Partial Class BCEParent
         Me.btn_Manifest.ForeColor = System.Drawing.Color.Black
         Me.btn_Manifest.Image = CType(resources.GetObject("btn_Manifest.Image"), System.Drawing.Image)
         Me.btn_Manifest.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Manifest.Location = New System.Drawing.Point(50, 249)
-        Me.btn_Manifest.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Manifest.Location = New System.Drawing.Point(33, 162)
+        Me.btn_Manifest.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Manifest.Name = "btn_Manifest"
-        Me.btn_Manifest.Size = New System.Drawing.Size(189, 83)
+        Me.btn_Manifest.Size = New System.Drawing.Size(126, 54)
         Me.btn_Manifest.TabIndex = 95
         Me.btn_Manifest.Text = "             Manifest"
         Me.btn_Manifest.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -468,10 +466,10 @@ Partial Class BCEParent
         Me.btn_Inbound.ForeColor = System.Drawing.Color.Black
         Me.btn_Inbound.Image = CType(resources.GetObject("btn_Inbound.Image"), System.Drawing.Image)
         Me.btn_Inbound.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Inbound.Location = New System.Drawing.Point(48, 83)
-        Me.btn_Inbound.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Inbound.Location = New System.Drawing.Point(32, 54)
+        Me.btn_Inbound.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Inbound.Name = "btn_Inbound"
-        Me.btn_Inbound.Size = New System.Drawing.Size(190, 83)
+        Me.btn_Inbound.Size = New System.Drawing.Size(127, 54)
         Me.btn_Inbound.TabIndex = 91
         Me.btn_Inbound.Text = "             Accept"
         Me.btn_Inbound.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -488,10 +486,10 @@ Partial Class BCEParent
         Me.btn_OutBound.ForeColor = System.Drawing.Color.Black
         Me.btn_OutBound.Image = CType(resources.GetObject("btn_OutBound.Image"), System.Drawing.Image)
         Me.btn_OutBound.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_OutBound.Location = New System.Drawing.Point(50, 166)
-        Me.btn_OutBound.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_OutBound.Location = New System.Drawing.Point(33, 108)
+        Me.btn_OutBound.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_OutBound.Name = "btn_OutBound"
-        Me.btn_OutBound.Size = New System.Drawing.Size(189, 83)
+        Me.btn_OutBound.Size = New System.Drawing.Size(126, 54)
         Me.btn_OutBound.TabIndex = 94
         Me.btn_OutBound.Text = "             Way Bill"
         Me.btn_OutBound.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -510,9 +508,9 @@ Partial Class BCEParent
         Me.btn_Shipment.Image = CType(resources.GetObject("btn_Shipment.Image"), System.Drawing.Image)
         Me.btn_Shipment.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_Shipment.Location = New System.Drawing.Point(0, 0)
-        Me.btn_Shipment.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Shipment.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Shipment.Name = "btn_Shipment"
-        Me.btn_Shipment.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Shipment.Size = New System.Drawing.Size(155, 54)
         Me.btn_Shipment.TabIndex = 92
         Me.btn_Shipment.Text = "             Shipment"
         Me.btn_Shipment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -530,10 +528,10 @@ Partial Class BCEParent
         Me.btn_Ops_PickUpList.ForeColor = System.Drawing.Color.Black
         Me.btn_Ops_PickUpList.Image = CType(resources.GetObject("btn_Ops_PickUpList.Image"), System.Drawing.Image)
         Me.btn_Ops_PickUpList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Ops_PickUpList.Location = New System.Drawing.Point(0, 249)
-        Me.btn_Ops_PickUpList.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Ops_PickUpList.Location = New System.Drawing.Point(0, 162)
+        Me.btn_Ops_PickUpList.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Ops_PickUpList.Name = "btn_Ops_PickUpList"
-        Me.btn_Ops_PickUpList.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Ops_PickUpList.Size = New System.Drawing.Size(155, 54)
         Me.btn_Ops_PickUpList.TabIndex = 89
         Me.btn_Ops_PickUpList.Text = "             Pickup"
         Me.btn_Ops_PickUpList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -551,10 +549,10 @@ Partial Class BCEParent
         Me.btn_SerOrd.ForeColor = System.Drawing.Color.Black
         Me.btn_SerOrd.Image = CType(resources.GetObject("btn_SerOrd.Image"), System.Drawing.Image)
         Me.btn_SerOrd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_SerOrd.Location = New System.Drawing.Point(0, 166)
-        Me.btn_SerOrd.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_SerOrd.Location = New System.Drawing.Point(0, 108)
+        Me.btn_SerOrd.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_SerOrd.Name = "btn_SerOrd"
-        Me.btn_SerOrd.Size = New System.Drawing.Size(236, 83)
+        Me.btn_SerOrd.Size = New System.Drawing.Size(155, 54)
         Me.btn_SerOrd.TabIndex = 92
         Me.btn_SerOrd.Text = "             Service Order"
         Me.btn_SerOrd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -572,10 +570,10 @@ Partial Class BCEParent
         Me.btn_FileUpload.ForeColor = System.Drawing.Color.Black
         Me.btn_FileUpload.Image = CType(resources.GetObject("btn_FileUpload.Image"), System.Drawing.Image)
         Me.btn_FileUpload.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_FileUpload.Location = New System.Drawing.Point(0, 83)
-        Me.btn_FileUpload.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_FileUpload.Location = New System.Drawing.Point(0, 54)
+        Me.btn_FileUpload.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_FileUpload.Name = "btn_FileUpload"
-        Me.btn_FileUpload.Size = New System.Drawing.Size(236, 83)
+        Me.btn_FileUpload.Size = New System.Drawing.Size(155, 54)
         Me.btn_FileUpload.TabIndex = 94
         Me.btn_FileUpload.Text = "             File Upload"
         Me.btn_FileUpload.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -594,9 +592,9 @@ Partial Class BCEParent
         Me.btn_OPSDashboard.Image = CType(resources.GetObject("btn_OPSDashboard.Image"), System.Drawing.Image)
         Me.btn_OPSDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_OPSDashboard.Location = New System.Drawing.Point(0, 0)
-        Me.btn_OPSDashboard.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_OPSDashboard.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_OPSDashboard.Name = "btn_OPSDashboard"
-        Me.btn_OPSDashboard.Size = New System.Drawing.Size(236, 83)
+        Me.btn_OPSDashboard.Size = New System.Drawing.Size(155, 54)
         Me.btn_OPSDashboard.TabIndex = 90
         Me.btn_OPSDashboard.Text = "             Dashboard"
         Me.btn_OPSDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -610,12 +608,12 @@ Partial Class BCEParent
         Me.tc_PISM.Dock = System.Windows.Forms.DockStyle.Left
         Me.tc_PISM.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed
         Me.tc_PISM.FontWeight = MetroFramework.MetroTabControlWeight.Regular
-        Me.tc_PISM.Location = New System.Drawing.Point(30, 92)
-        Me.tc_PISM.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.tc_PISM.Location = New System.Drawing.Point(20, 60)
+        Me.tc_PISM.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tc_PISM.Multiline = True
         Me.tc_PISM.Name = "tc_PISM"
         Me.tc_PISM.SelectedIndex = 0
-        Me.tc_PISM.Size = New System.Drawing.Size(244, 959)
+        Me.tc_PISM.Size = New System.Drawing.Size(163, 623)
         Me.tc_PISM.Style = MetroFramework.MetroColorStyle.Teal
         Me.tc_PISM.TabIndex = 2
         Me.tc_PISM.Theme = MetroFramework.MetroThemeStyle.Light
@@ -629,16 +627,15 @@ Partial Class BCEParent
         Me.tp_Fin.Controls.Add(Me.btn_Costing)
         Me.tp_Fin.HorizontalScrollbarBarColor = True
         Me.tp_Fin.HorizontalScrollbarHighlightOnWheel = False
-        Me.tp_Fin.HorizontalScrollbarSize = 15
+        Me.tp_Fin.HorizontalScrollbarSize = 10
         Me.tp_Fin.Location = New System.Drawing.Point(4, 106)
-        Me.tp_Fin.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.tp_Fin.Name = "tp_Fin"
-        Me.tp_Fin.Size = New System.Drawing.Size(236, 848)
+        Me.tp_Fin.Size = New System.Drawing.Size(155, 513)
         Me.tp_Fin.TabIndex = 2
         Me.tp_Fin.Text = "Finance"
         Me.tp_Fin.VerticalScrollbarBarColor = True
         Me.tp_Fin.VerticalScrollbarHighlightOnWheel = False
-        Me.tp_Fin.VerticalScrollbarSize = 15
+        Me.tp_Fin.VerticalScrollbarSize = 10
         '
         'btn_Collection
         '
@@ -652,10 +649,10 @@ Partial Class BCEParent
         Me.btn_Collection.ForeColor = System.Drawing.Color.Black
         Me.btn_Collection.Image = CType(resources.GetObject("btn_Collection.Image"), System.Drawing.Image)
         Me.btn_Collection.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Collection.Location = New System.Drawing.Point(0, 249)
-        Me.btn_Collection.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Collection.Location = New System.Drawing.Point(0, 162)
+        Me.btn_Collection.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Collection.Name = "btn_Collection"
-        Me.btn_Collection.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Collection.Size = New System.Drawing.Size(155, 54)
         Me.btn_Collection.TabIndex = 95
         Me.btn_Collection.Text = "             Collection"
         Me.btn_Collection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -673,10 +670,10 @@ Partial Class BCEParent
         Me.btn_Billing.ForeColor = System.Drawing.Color.Black
         Me.btn_Billing.Image = CType(resources.GetObject("btn_Billing.Image"), System.Drawing.Image)
         Me.btn_Billing.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Billing.Location = New System.Drawing.Point(0, 166)
-        Me.btn_Billing.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Billing.Location = New System.Drawing.Point(0, 108)
+        Me.btn_Billing.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Billing.Name = "btn_Billing"
-        Me.btn_Billing.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Billing.Size = New System.Drawing.Size(155, 54)
         Me.btn_Billing.TabIndex = 94
         Me.btn_Billing.Text = "             Billing"
         Me.btn_Billing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -694,10 +691,10 @@ Partial Class BCEParent
         Me.btn_Disbursement.ForeColor = System.Drawing.Color.Black
         Me.btn_Disbursement.Image = CType(resources.GetObject("btn_Disbursement.Image"), System.Drawing.Image)
         Me.btn_Disbursement.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Disbursement.Location = New System.Drawing.Point(0, 83)
-        Me.btn_Disbursement.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Disbursement.Location = New System.Drawing.Point(0, 54)
+        Me.btn_Disbursement.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Disbursement.Name = "btn_Disbursement"
-        Me.btn_Disbursement.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Disbursement.Size = New System.Drawing.Size(155, 54)
         Me.btn_Disbursement.TabIndex = 92
         Me.btn_Disbursement.Text = "             Disbursement"
         Me.btn_Disbursement.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -716,9 +713,9 @@ Partial Class BCEParent
         Me.btn_Costing.Image = CType(resources.GetObject("btn_Costing.Image"), System.Drawing.Image)
         Me.btn_Costing.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_Costing.Location = New System.Drawing.Point(0, 0)
-        Me.btn_Costing.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Costing.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Costing.Name = "btn_Costing"
-        Me.btn_Costing.Size = New System.Drawing.Size(236, 83)
+        Me.btn_Costing.Size = New System.Drawing.Size(155, 54)
         Me.btn_Costing.TabIndex = 93
         Me.btn_Costing.Text = "             Rate Cost"
         Me.btn_Costing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -733,10 +730,9 @@ Partial Class BCEParent
         Me.mt_Setting.ActiveControl = Nothing
         Me.mt_Setting.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.mt_Setting.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.mt_Setting.Location = New System.Drawing.Point(1598, 66)
-        Me.mt_Setting.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.mt_Setting.Location = New System.Drawing.Point(1065, 43)
         Me.mt_Setting.Name = "mt_Setting"
-        Me.mt_Setting.Size = New System.Drawing.Size(39, 15)
+        Me.mt_Setting.Size = New System.Drawing.Size(26, 10)
         Me.mt_Setting.TabIndex = 13
         Me.mt_Setting.TileImage = CType(resources.GetObject("mt_Setting.TileImage"), System.Drawing.Image)
         Me.mt_Setting.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -750,10 +746,9 @@ Partial Class BCEParent
         Me.cbo_BranchCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cbo_BranchCode.FormattingEnabled = True
         Me.cbo_BranchCode.ItemHeight = 23
-        Me.cbo_BranchCode.Location = New System.Drawing.Point(986, 26)
-        Me.cbo_BranchCode.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.cbo_BranchCode.Location = New System.Drawing.Point(657, 17)
         Me.cbo_BranchCode.Name = "cbo_BranchCode"
-        Me.cbo_BranchCode.Size = New System.Drawing.Size(210, 29)
+        Me.cbo_BranchCode.Size = New System.Drawing.Size(141, 29)
         Me.cbo_BranchCode.Style = MetroFramework.MetroColorStyle.Black
         Me.cbo_BranchCode.TabIndex = 18
         Me.cbo_BranchCode.UseSelectable = True
@@ -772,9 +767,9 @@ Partial Class BCEParent
         Me.btn_AcctApp.Image = CType(resources.GetObject("btn_AcctApp.Image"), System.Drawing.Image)
         Me.btn_AcctApp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_AcctApp.Location = New System.Drawing.Point(0, 0)
-        Me.btn_AcctApp.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_AcctApp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_AcctApp.Name = "btn_AcctApp"
-        Me.btn_AcctApp.Size = New System.Drawing.Size(240, 52)
+        Me.btn_AcctApp.Size = New System.Drawing.Size(160, 34)
         Me.btn_AcctApp.TabIndex = 92
         Me.btn_AcctApp.Text = "           Account Approval"
         Me.btn_AcctApp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -792,10 +787,10 @@ Partial Class BCEParent
         Me.btn_TrackingApp.ForeColor = System.Drawing.Color.Black
         Me.btn_TrackingApp.Image = CType(resources.GetObject("btn_TrackingApp.Image"), System.Drawing.Image)
         Me.btn_TrackingApp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_TrackingApp.Location = New System.Drawing.Point(0, 52)
-        Me.btn_TrackingApp.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_TrackingApp.Location = New System.Drawing.Point(0, 34)
+        Me.btn_TrackingApp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_TrackingApp.Name = "btn_TrackingApp"
-        Me.btn_TrackingApp.Size = New System.Drawing.Size(240, 52)
+        Me.btn_TrackingApp.Size = New System.Drawing.Size(160, 34)
         Me.btn_TrackingApp.TabIndex = 99
         Me.btn_TrackingApp.Text = "           Tracking Approval"
         Me.btn_TrackingApp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -813,10 +808,10 @@ Partial Class BCEParent
         Me.btn_ChangePass.ForeColor = System.Drawing.Color.Black
         Me.btn_ChangePass.Image = CType(resources.GetObject("btn_ChangePass.Image"), System.Drawing.Image)
         Me.btn_ChangePass.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_ChangePass.Location = New System.Drawing.Point(0, 104)
-        Me.btn_ChangePass.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_ChangePass.Location = New System.Drawing.Point(0, 68)
+        Me.btn_ChangePass.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_ChangePass.Name = "btn_ChangePass"
-        Me.btn_ChangePass.Size = New System.Drawing.Size(240, 52)
+        Me.btn_ChangePass.Size = New System.Drawing.Size(160, 34)
         Me.btn_ChangePass.TabIndex = 93
         Me.btn_ChangePass.Text = "           Change Password"
         Me.btn_ChangePass.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -834,10 +829,10 @@ Partial Class BCEParent
         Me.btn_Switch.ForeColor = System.Drawing.Color.Black
         Me.btn_Switch.Image = CType(resources.GetObject("btn_Switch.Image"), System.Drawing.Image)
         Me.btn_Switch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_Switch.Location = New System.Drawing.Point(0, 156)
-        Me.btn_Switch.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_Switch.Location = New System.Drawing.Point(0, 102)
+        Me.btn_Switch.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_Switch.Name = "btn_Switch"
-        Me.btn_Switch.Size = New System.Drawing.Size(240, 52)
+        Me.btn_Switch.Size = New System.Drawing.Size(160, 34)
         Me.btn_Switch.TabIndex = 94
         Me.btn_Switch.Text = "           Switch Station"
         Me.btn_Switch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -855,10 +850,10 @@ Partial Class BCEParent
         Me.Button1.ForeColor = System.Drawing.Color.Black
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(0, 208)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.Button1.Location = New System.Drawing.Point(0, 136)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(240, 52)
+        Me.Button1.Size = New System.Drawing.Size(160, 34)
         Me.Button1.TabIndex = 98
         Me.Button1.Text = "           Maintenance"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -876,10 +871,10 @@ Partial Class BCEParent
         Me.btn_FAQ.ForeColor = System.Drawing.Color.Black
         Me.btn_FAQ.Image = CType(resources.GetObject("btn_FAQ.Image"), System.Drawing.Image)
         Me.btn_FAQ.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_FAQ.Location = New System.Drawing.Point(0, 260)
-        Me.btn_FAQ.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_FAQ.Location = New System.Drawing.Point(0, 170)
+        Me.btn_FAQ.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_FAQ.Name = "btn_FAQ"
-        Me.btn_FAQ.Size = New System.Drawing.Size(240, 52)
+        Me.btn_FAQ.Size = New System.Drawing.Size(160, 34)
         Me.btn_FAQ.TabIndex = 96
         Me.btn_FAQ.Text = "           FAQ"
         Me.btn_FAQ.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -897,10 +892,10 @@ Partial Class BCEParent
         Me.btn_ReleaseNote.ForeColor = System.Drawing.Color.Black
         Me.btn_ReleaseNote.Image = CType(resources.GetObject("btn_ReleaseNote.Image"), System.Drawing.Image)
         Me.btn_ReleaseNote.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_ReleaseNote.Location = New System.Drawing.Point(0, 312)
-        Me.btn_ReleaseNote.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_ReleaseNote.Location = New System.Drawing.Point(0, 204)
+        Me.btn_ReleaseNote.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_ReleaseNote.Name = "btn_ReleaseNote"
-        Me.btn_ReleaseNote.Size = New System.Drawing.Size(240, 52)
+        Me.btn_ReleaseNote.Size = New System.Drawing.Size(160, 34)
         Me.btn_ReleaseNote.TabIndex = 95
         Me.btn_ReleaseNote.Text = "           Release Note"
         Me.btn_ReleaseNote.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -918,10 +913,10 @@ Partial Class BCEParent
         Me.btn_SignOut.ForeColor = System.Drawing.Color.Black
         Me.btn_SignOut.Image = CType(resources.GetObject("btn_SignOut.Image"), System.Drawing.Image)
         Me.btn_SignOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_SignOut.Location = New System.Drawing.Point(0, 364)
-        Me.btn_SignOut.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.btn_SignOut.Location = New System.Drawing.Point(0, 238)
+        Me.btn_SignOut.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btn_SignOut.Name = "btn_SignOut"
-        Me.btn_SignOut.Size = New System.Drawing.Size(240, 52)
+        Me.btn_SignOut.Size = New System.Drawing.Size(160, 34)
         Me.btn_SignOut.TabIndex = 97
         Me.btn_SignOut.Text = "           Sign Out"
         Me.btn_SignOut.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -941,32 +936,30 @@ Partial Class BCEParent
         Me.pnl_Setting.Controls.Add(Me.btn_AcctApp)
         Me.pnl_Setting.HorizontalScrollbarBarColor = True
         Me.pnl_Setting.HorizontalScrollbarHighlightOnWheel = False
-        Me.pnl_Setting.HorizontalScrollbarSize = 15
-        Me.pnl_Setting.Location = New System.Drawing.Point(1395, 94)
-        Me.pnl_Setting.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.pnl_Setting.HorizontalScrollbarSize = 10
+        Me.pnl_Setting.Location = New System.Drawing.Point(930, 61)
         Me.pnl_Setting.Name = "pnl_Setting"
-        Me.pnl_Setting.Size = New System.Drawing.Size(242, 0)
+        Me.pnl_Setting.Size = New System.Drawing.Size(162, 1)
         Me.pnl_Setting.TabIndex = 14
         Me.pnl_Setting.VerticalScrollbarBarColor = True
         Me.pnl_Setting.VerticalScrollbarHighlightOnWheel = False
-        Me.pnl_Setting.VerticalScrollbarSize = 15
+        Me.pnl_Setting.VerticalScrollbarSize = 10
         '
         'lbl_Name
         '
         Me.lbl_Name.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lbl_Name.FontWeight = MetroFramework.MetroLabelWeight.Regular
-        Me.lbl_Name.Location = New System.Drawing.Point(1420, 60)
-        Me.lbl_Name.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbl_Name.Location = New System.Drawing.Point(947, 39)
         Me.lbl_Name.Name = "lbl_Name"
-        Me.lbl_Name.Size = New System.Drawing.Size(174, 29)
+        Me.lbl_Name.Size = New System.Drawing.Size(116, 19)
         Me.lbl_Name.TabIndex = 16
         Me.lbl_Name.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'BCEParent
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1670, 1082)
+        Me.ClientSize = New System.Drawing.Size(1113, 703)
         Me.Controls.Add(Me.cbo_BranchCode)
         Me.Controls.Add(Me.lbl_Name)
         Me.Controls.Add(Me.pnl_Setting)
@@ -974,9 +967,7 @@ Partial Class BCEParent
         Me.Controls.Add(Me.tc_PISM)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "BCEParent"
-        Me.Padding = New System.Windows.Forms.Padding(30, 92, 30, 31)
         Me.Style = MetroFramework.MetroColorStyle.Teal
         Me.Text = "Cerro"
         Me.TransparencyKey = System.Drawing.Color.Empty

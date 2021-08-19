@@ -10,23 +10,6 @@ Public Class HWB
 
     End Sub
 
-    Private Sub crv_HWB_Load(sender As Object, e As EventArgs) Handles crv_HWB.Load
-        'Try
-
-        '    For Each ctrl As Control In crv_HWB.Controls
-
-        '        If TypeOf ctrl Is System.Windows.Forms.ToolStrip Then
-        '            HWBNo()
-        '            'Outbound.GetItem()
-        '            obHWBSheet()
-        '            AddHandler(CType(ctrl, ToolStrip).Items(1).Click), AddressOf Print
-        '        End If
-        '    Next
-        'Catch ex As Exception
-        '    MsgBox(ex.Message)
-        'End Try
-    End Sub
-
     Sub HWBNo()
         Try
             Dim cmd As New SqlCommand

@@ -25,6 +25,7 @@ Partial Class Costing
         Me.txt_Search = New MetroFramework.Controls.MetroTextBox()
         Me.MetroLabel4 = New MetroFramework.Controls.MetroLabel()
         Me.MetroLabel2 = New MetroFramework.Controls.MetroLabel()
+        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.SuspendLayout()
         '
         'txt_Search
@@ -78,9 +79,20 @@ Partial Class Costing
         Me.MetroLabel2.TabIndex = 121
         Me.MetroLabel2.UseCustomForeColor = True
         '
+        'CrystalReportViewer1
+        '
+        Me.CrystalReportViewer1.ActiveViewIndex = -1
+        Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(176, 194)
+        Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(150, 150)
+        Me.CrystalReportViewer1.TabIndex = 122
+        '
         'Costing
         '
         Me.ClientSize = New System.Drawing.Size(1069, 596)
+        Me.Controls.Add(Me.CrystalReportViewer1)
         Me.Controls.Add(Me.MetroLabel2)
         Me.Controls.Add(Me.MetroLabel4)
         Me.Controls.Add(Me.txt_Search)
@@ -109,4 +121,5 @@ Partial Class Costing
     Friend WithEvents txt_Search As MetroFramework.Controls.MetroTextBox
     Friend WithEvents MetroLabel4 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLabel2 As MetroFramework.Controls.MetroLabel
+    Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
 End Class
