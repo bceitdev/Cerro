@@ -126,8 +126,8 @@ Public Class BCEParent
     End Sub
     Private Sub BCEParent_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         lbl_Name.Text = "Hi " & FirstName
-        'tc_PISM.TabPages.RemoveByKey("tp_Ops")
-        'tc_PISM.TabPages.RemoveByKey("tp_Fin")
+        tc_PISM.TabPages.RemoveByKey("tp_Ops")
+        tc_PISM.TabPages.RemoveByKey("tp_CS")
         BranchCode("BranchCodeItem")
         cbo_BranchCode.SelectedIndex = 0
     End Sub

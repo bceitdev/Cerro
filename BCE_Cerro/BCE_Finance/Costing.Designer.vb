@@ -84,7 +84,7 @@ Partial Class Costing
         Me.CrystalReportViewer1.ActiveViewIndex = -1
         Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReportViewer1.Location = New System.Drawing.Point(176, 194)
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(417, 74)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
         Me.CrystalReportViewer1.Size = New System.Drawing.Size(150, 150)
         Me.CrystalReportViewer1.TabIndex = 122

@@ -11,7 +11,6 @@ Public Class Billing
 	Private Sub Billing_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 		ClientList()
 	End Sub
-
 	Sub ClientList()
 		Try
 			strQuery = "EXEC vw_clientinfo @clientstatus = 'OPEN'"

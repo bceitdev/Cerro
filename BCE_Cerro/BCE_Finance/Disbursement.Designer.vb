@@ -73,12 +73,16 @@ Partial Class Disbursement
         Me.MetroTabPage3 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroTabControl2 = New MetroFramework.Controls.MetroTabControl()
+        Me.crv_CV = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
+        Me.crv_C = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.MetroTabControl1.SuspendLayout()
         Me.MetroTabPage1.SuspendLayout()
         Me.MetroPanel13.SuspendLayout()
         CType(Me.dgv_Disbursement, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dgv_dummy, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
+        Me.MetroTabPage3.SuspendLayout()
+        Me.MetroTabPage2.SuspendLayout()
         Me.MetroTabControl2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -736,6 +740,7 @@ Partial Class Disbursement
         'MetroTabPage3
         '
         Me.MetroTabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.MetroTabPage3.Controls.Add(Me.crv_C)
         Me.MetroTabPage3.HorizontalScrollbarBarColor = True
         Me.MetroTabPage3.HorizontalScrollbarHighlightOnWheel = False
         Me.MetroTabPage3.HorizontalScrollbarSize = 10
@@ -751,6 +756,7 @@ Partial Class Disbursement
         'MetroTabPage2
         '
         Me.MetroTabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.MetroTabPage2.Controls.Add(Me.crv_CV)
         Me.MetroTabPage2.HorizontalScrollbarBarColor = True
         Me.MetroTabPage2.HorizontalScrollbarHighlightOnWheel = False
         Me.MetroTabPage2.HorizontalScrollbarSize = 10
@@ -774,6 +780,44 @@ Partial Class Disbursement
         Me.MetroTabControl2.Size = New System.Drawing.Size(534, 492)
         Me.MetroTabControl2.TabIndex = 117
         Me.MetroTabControl2.UseSelectable = True
+        '
+        'crv_CV
+        '
+        Me.crv_CV.ActiveViewIndex = -1
+        Me.crv_CV.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.crv_CV.Cursor = System.Windows.Forms.Cursors.Default
+        Me.crv_CV.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.crv_CV.Location = New System.Drawing.Point(0, 0)
+        Me.crv_CV.Name = "crv_CV"
+        Me.crv_CV.ShowCloseButton = False
+        Me.crv_CV.ShowCopyButton = False
+        Me.crv_CV.ShowGotoPageButton = False
+        Me.crv_CV.ShowGroupTreeButton = False
+        Me.crv_CV.ShowLogo = False
+        Me.crv_CV.ShowParameterPanelButton = False
+        Me.crv_CV.ShowPrintButton = False
+        Me.crv_CV.Size = New System.Drawing.Size(524, 448)
+        Me.crv_CV.TabIndex = 18
+        Me.crv_CV.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
+        '
+        'crv_C
+        '
+        Me.crv_C.ActiveViewIndex = -1
+        Me.crv_C.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.crv_C.Cursor = System.Windows.Forms.Cursors.Default
+        Me.crv_C.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.crv_C.Location = New System.Drawing.Point(0, 0)
+        Me.crv_C.Name = "crv_C"
+        Me.crv_C.ShowCloseButton = False
+        Me.crv_C.ShowCopyButton = False
+        Me.crv_C.ShowGotoPageButton = False
+        Me.crv_C.ShowGroupTreeButton = False
+        Me.crv_C.ShowLogo = False
+        Me.crv_C.ShowParameterPanelButton = False
+        Me.crv_C.ShowPrintButton = False
+        Me.crv_C.Size = New System.Drawing.Size(524, 448)
+        Me.crv_C.TabIndex = 19
+        Me.crv_C.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
         'Disbursement
         '
@@ -799,6 +843,8 @@ Partial Class Disbursement
         CType(Me.dgv_dummy, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.MetroTabPage3.ResumeLayout(False)
+        Me.MetroTabPage2.ResumeLayout(False)
         Me.MetroTabControl2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -849,6 +895,6 @@ Partial Class Disbursement
     Friend WithEvents MetroTabPage3 As MetroFramework.Controls.MetroTabPage
     Friend WithEvents MetroTabPage2 As MetroFramework.Controls.MetroTabPage
     Friend WithEvents MetroTabControl2 As MetroFramework.Controls.MetroTabControl
-    Friend WithEvents crv_CV As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents crv_C As CrystalDecisions.Windows.Forms.CrystalReportViewer
+    Friend WithEvents crv_CV As CrystalDecisions.Windows.Forms.CrystalReportViewer
 End Class

@@ -219,7 +219,7 @@ Public Class Disbursement
             rptdoc = New cr_Check
             rptdoc.SetDataSource(dssearch)
             crv_C.ReportSource = rptdoc
-            'crv_CV.Zoom(75)
+            'crv_CV1.Zoom(75)
             crv_C.Refresh()
         Catch ex As Exception
             MsgBox(ex.Message)
@@ -736,6 +736,10 @@ Public Class Disbursement
     End Sub
 
     Private Sub txt_amtno_Click(sender As Object, e As EventArgs) Handles txt_amtno.Click
+
+    End Sub
+
+    Private Sub MetroTabControl2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetroTabControl2.SelectedIndexChanged
 
     End Sub
 
